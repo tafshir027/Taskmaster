@@ -4,7 +4,7 @@
       "id": 1,
       "text": "Update Points",
       "points": 6250,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-15T11:56:48.752Z"
     }
   ],
@@ -18,7 +18,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 0,
+  "totalPoints": 6250,
   "nextTid": 2,
   "nextRid": 6
 }
