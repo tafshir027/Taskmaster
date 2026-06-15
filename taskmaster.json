@@ -8,14 +8,6 @@
       "pointsRequired": 100,
       "claimed": false,
       "icon": "fas fa-film"
-    },
-    {
-      "id": 3,
-      "title": "Buy a Book",
-      "description": "Treat yourself to a new read",
-      "pointsRequired": 200,
-      "claimed": false,
-      "icon": "fas fa-book"
     }
   ],
   "totalPoints": 0,
