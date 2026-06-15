@@ -2,14 +2,6 @@
   "tasks": [],
   "rewards": [
     {
-      "id": 1,
-      "title": "Coffee Break",
-      "description": "Enjoy a relaxing coffee",
-      "pointsRequired": 50,
-      "claimed": false,
-      "icon": "fas fa-coffee"
-    },
-    {
       "id": 2,
       "title": "Movie Night",
       "description": "Watch a movie of your choice",
