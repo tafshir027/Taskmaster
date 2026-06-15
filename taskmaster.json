@@ -1,7 +1,16 @@
 {
   "tasks": [],
-  "rewards": [],
+  "rewards": [
+    {
+      "id": 5,
+      "title": "Tour 1",
+      "description": "No description",
+      "pointsRequired": 10000,
+      "claimed": false,
+      "icon": "fas fa-umbrella-beach"
+    }
+  ],
   "totalPoints": 0,
   "nextTid": 1,
-  "nextRid": 5
+  "nextRid": 6
 }
