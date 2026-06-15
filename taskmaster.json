@@ -6,6 +6,13 @@
       "points": 6250,
       "completed": true,
       "createdAt": "2026-06-15T11:56:48.752Z"
+    },
+    {
+      "id": 2,
+      "text": "Next tools",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-15T12:02:30.332Z"
     }
   ],
   "rewards": [
@@ -19,6 +26,6 @@
     }
   ],
   "totalPoints": 6250,
-  "nextTid": 2,
+  "nextTid": 3,
   "nextRid": 6
 }
