@@ -1,0 +1,40 @@
+{
+  "tasks": [],
+  "rewards": [
+    {
+      "id": 1,
+      "title": "Coffee Break",
+      "description": "Enjoy a relaxing coffee",
+      "pointsRequired": 50,
+      "claimed": false,
+      "icon": "fas fa-coffee"
+    },
+    {
+      "id": 2,
+      "title": "Movie Night",
+      "description": "Watch a movie of your choice",
+      "pointsRequired": 100,
+      "claimed": false,
+      "icon": "fas fa-film"
+    },
+    {
+      "id": 3,
+      "title": "Buy a Book",
+      "description": "Treat yourself to a new read",
+      "pointsRequired": 200,
+      "claimed": false,
+      "icon": "fas fa-book"
+    },
+    {
+      "id": 4,
+      "title": "Weekend Trip",
+      "description": "Plan a mini getaway",
+      "pointsRequired": 500,
+      "claimed": false,
+      "icon": "fas fa-umbrella-beach"
+    }
+  ],
+  "totalPoints": 0,
+  "nextTid": 1,
+  "nextRid": 5
+}
