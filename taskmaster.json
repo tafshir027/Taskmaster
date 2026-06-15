@@ -1,15 +1,6 @@
 {
   "tasks": [],
-  "rewards": [
-    {
-      "id": 2,
-      "title": "Movie Night",
-      "description": "Watch a movie of your choice",
-      "pointsRequired": 100,
-      "claimed": false,
-      "icon": "fas fa-film"
-    }
-  ],
+  "rewards": [],
   "totalPoints": 0,
   "nextTid": 1,
   "nextRid": 5
