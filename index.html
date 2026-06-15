@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskMaster Pro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+/* ── TOKENS ── */
+:root {
+  --p1:#7c3aed;--p2:#a78bfa;--p3:#ede9fe;
+  --e1:#059669;--e2:#6ee7b7;--e3:#d1fae5;
+  --a1:#d97706;--a2:#fde68a;
+  --r1:#e11d48;--r2:#fda4af;
+  --s1:#0284c7;--s2:#bae6fd;
+  --bg:#f0f4ff;--bg2:#e8eeff;
+  --glass:rgba(255,255,255,0.65);--glass2:rgba(255,255,255,0.45);--glass3:rgba(255,255,255,0.3);
+  --border:rgba(124,58,237,0.15);--border2:rgba(124,58,237,0.25);
+  --text:#1e1b4b;--text2:#4c4f7a;--text3:#9598c8;
+  --shadow:0 8px 32px rgba(124,58,237,0.10);--shadow2:0 16px 48px rgba(124,58,237,0.18);
+  --blur:blur(18px);
+}
+[data-theme="dark"]{
+  --bg:#0f0a1e;--bg2:#160d2e;
+  --glass:rgba(30,20,60,0.75);--glass2:rgba(30,20,60,0.55);--glass3:rgba(30,20,60,0.38);
+  --border:rgba(167,139,250,0.18);--border2:rgba(167,139,250,0.32);
+  --text:#ede9fe;--text2:#a8a4d4;--text3:#5a5680;
+  --shadow:0 8px 32px rgba(0,0,0,0.45);--shadow2:0 16px 48px rgba(0,0,0,0.6);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;transition:background .3s,color .3s;position:relative;overflow-x:hidden;}
+.blob{position:fixed;border-radius:50%;filter:blur(80px);opacity:.35;pointer-events:none;z-index:0;transition:opacity .3s;}
+.blob1{width:600px;height:600px;background:radial-gradient(circle,#c4b5fd,#818cf8);top:-200px;left:-200px;}
+.blob2{width:500px;height:500px;background:radial-gradient(circle,#a7f3d0,#6ee7b7);bottom:-150px;right:-100px;}
+.blob3{width:350px;height:350px;background:radial-gradient(circle,#fde68a,#fca5a5);top:40%;left:55%;}
+[data-theme="dark"] .blob{opacity:.18;}
+.wrap{position:relative;z-index:1;}
+.header{background:var(--glass);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);border-bottom:1px solid var(--border2);padding:16px 20px 0;position:sticky;top:0;z-index:200;box-shadow:var(--shadow);}
+.header-inner{max-width:1200px;margin:0 auto;}
+.header-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:14px;}
+.brand{display:flex;align-items:center;gap:11px;}
+.brand-icon{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--p1),var(--p2));display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:0 4px 16px rgba(124,58,237,.4);flex-shrink:0;}
+.brand h1{font-family:'Space Grotesk',sans-serif;font-size:1.25rem;font-weight:700;background:linear-gradient(135deg,var(--p1),#e879f9);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1.1;}
+.brand p{font-size:11px;color:var(--text2);margin-top:2px;}
+.header-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.hstats{display:flex;gap:6px;flex-wrap:wrap;}
+.hstat{background:var(--glass2);backdrop-filter:blur(8px);border:1px solid var(--border);border-radius:20px;padding:5px 12px;display:flex;align-items:center;gap:6px;min-width:60px;}
+.hstat .val{font-family:'Space Grotesk',sans-serif;font-size:1rem;font-weight:700;background:linear-gradient(135deg,var(--p1),var(--e1));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.hstat .lbl{font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:.04em;}
+.theme-toggle{width:36px;height:36px;border-radius:10px;background:var(--glass2);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:15px;transition:all .2s;color:var(--text2);flex-shrink:0;}
+.theme-toggle:hover{background:var(--glass);color:var(--text);border-color:var(--border2);}
+
+/* sync indicator */
+.sync-indicator{
+  display:flex;align-items:center;gap:5px;
+  font-size:11px;color:var(--text3);
+  padding:4px 10px;border-radius:20px;
+  background:var(--glass2);border:1px solid var(--border);
+  transition:all .3s;
+}
+.sync-indicator.syncing{color:var(--a1);border-color:rgba(217,119,6,.3);}
+.sync-indicator.synced{color:var(--e1);border-color:rgba(5,150,105,.3);}
+.sync-indicator.error{color:var(--r1);border-color:rgba(225,29,72,.3);}
+.sync-dot{width:7px;height:7px;border-radius:50%;background:currentColor;flex-shrink:0;}
+.sync-indicator.syncing .sync-dot{animation:pulse .8s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+
+.tabs{display:flex;gap:0;}
+.tab-btn{padding:10px 20px;font-size:13px;font-weight:500;font-family:'Inter',sans-serif;color:var(--text2);background:transparent;border:none;border-bottom:2px solid transparent;cursor:pointer;transition:all .2s;white-space:nowrap;}
+.tab-btn:hover{color:var(--text);}
+.tab-btn.active{color:var(--p1);border-bottom-color:var(--p1);}
+[data-theme="dark"] .tab-btn.active{color:var(--p2);border-bottom-color:var(--p2);}
+.main{max-width:1200px;margin:0 auto;padding:24px 16px 80px;}
+.card{background:var(--glass);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);border:1px solid var(--border2);border-radius:20px;padding:22px;margin-bottom:20px;box-shadow:var(--shadow);transition:background .3s,border .3s,box-shadow .3s;}
+.card:hover{box-shadow:var(--shadow2);}
+.card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;flex-wrap:wrap;gap:10px;}
+.card-title{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:600;color:var(--text);display:flex;align-items:center;gap:9px;}
+.ctag{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0;}
+.ctag-p{background:linear-gradient(135deg,#ede9fe,#ddd6fe);color:var(--p1);}
+.ctag-e{background:linear-gradient(135deg,#d1fae5,#a7f3d0);color:var(--e1);}
+.ctag-a{background:linear-gradient(135deg,#fef3c7,#fde68a);color:var(--a1);}
+.ctag-r{background:linear-gradient(135deg,#ffe4e6,#fecdd3);color:var(--r1);}
+.ctag-s{background:linear-gradient(135deg,#e0f2fe,#bae6fd);color:var(--s1);}
+[data-theme="dark"] .ctag-p{background:rgba(124,58,237,.25);color:var(--p2);}
+[data-theme="dark"] .ctag-e{background:rgba(5,150,105,.2);color:var(--e2);}
+[data-theme="dark"] .ctag-a{background:rgba(217,119,6,.2);color:var(--a2);}
+[data-theme="dark"] .ctag-r{background:rgba(225,29,72,.2);color:var(--r2);}
+[data-theme="dark"] .ctag-s{background:rgba(2,132,199,.2);color:var(--s2);}
+.form-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px;}
+.fg{display:flex;flex-direction:column;gap:5px;flex:1;min-width:160px;}
+.fg label{font-size:11.5px;font-weight:600;color:var(--text2);letter-spacing:.03em;text-transform:uppercase;}
+.fc{padding:10px 13px;background:var(--glass2);backdrop-filter:blur(8px);border:1px solid var(--border);border-radius:12px;color:var(--text);font-size:14px;font-family:'Inter',sans-serif;outline:none;width:100%;transition:border-color .2s,box-shadow .2s;}
+.fc::placeholder{color:var(--text3);}
+.fc:focus{border-color:var(--p1);box-shadow:0 0 0 3px rgba(124,58,237,.15);}
+textarea.fc{resize:vertical;min-height:60px;}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:9px 18px;border-radius:12px;font-size:13px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;border:none;transition:all .18s;white-space:nowrap;}
+.btn-sm{padding:6px 12px;font-size:12px;border-radius:9px;}
+.btn-icon{width:32px;height:32px;padding:0;border-radius:9px;}
+.btn-p{background:linear-gradient(135deg,var(--p1),#9333ea);color:#fff;box-shadow:0 4px 14px rgba(124,58,237,.3);}
+.btn-p:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(124,58,237,.45);}
+.btn-e{background:linear-gradient(135deg,var(--e1),#10b981);color:#fff;box-shadow:0 4px 14px rgba(5,150,105,.28);}
+.btn-e:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(5,150,105,.42);}
+.btn-r{background:linear-gradient(135deg,var(--r1),#f43f5e);color:#fff;box-shadow:0 4px 14px rgba(225,29,72,.28);}
+.btn-r:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(225,29,72,.42);}
+.btn-a{background:linear-gradient(135deg,var(--a1),#f59e0b);color:#fff;box-shadow:0 4px 14px rgba(217,119,6,.28);}
+.btn-a:hover{transform:translateY(-1px);}
+.btn-g{background:var(--glass2);border:1px solid var(--border);color:var(--text2);backdrop-filter:blur(8px);}
+.btn-g:hover{background:var(--glass);color:var(--text);border-color:var(--border2);}
+.btn:disabled{opacity:.45;cursor:not-allowed;transform:none!important;box-shadow:none!important;}
+.prog-wrap{margin-bottom:14px;}
+.prog-labels{display:flex;justify-content:space-between;margin-bottom:5px;font-size:12px;color:var(--text2);}
+.prog-track{height:7px;background:rgba(124,58,237,.1);border-radius:4px;overflow:hidden;}
+.prog-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--p1),#e879f9);transition:width .6s cubic-bezier(.4,0,.2,1);}
+.prog-fill.gr{background:linear-gradient(90deg,var(--e1),#34d399);}
+.tasks-list{display:flex;flex-direction:column;gap:8px;max-height:360px;overflow-y:auto;padding-right:2px;}
+.tasks-list::-webkit-scrollbar{width:4px;}
+.tasks-list::-webkit-scrollbar-thumb{background:rgba(124,58,237,.25);border-radius:2px;}
+.task-item{display:flex;align-items:center;gap:11px;padding:12px 14px;background:var(--glass2);backdrop-filter:blur(8px);border:1px solid var(--border);border-radius:14px;border-left:3px solid var(--p1);transition:all .2s;}
+.task-item:hover{background:var(--glass);border-color:var(--border2);transform:translateX(2px);}
+.task-item.done{border-left-color:var(--e1);opacity:.7;}
+.task-item.done .task-txt{text-decoration:line-through;color:var(--text2);}
+.task-cb{width:20px;height:20px;border-radius:6px;border:1.5px solid var(--border2);background:var(--glass3);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .18s;flex-shrink:0;color:transparent;font-size:10px;}
+.task-item.done .task-cb{background:linear-gradient(135deg,var(--e1),#34d399);border-color:var(--e1);color:#fff;}
+.task-body{flex:1;min-width:0;}
+.task-txt{font-size:13.5px;font-weight:500;color:var(--text);line-height:1.4;word-break:break-word;}
+.task-badge{display:inline-block;margin-top:3px;font-size:10.5px;font-weight:600;background:linear-gradient(135deg,rgba(124,58,237,.12),rgba(167,139,250,.12));color:var(--p1);padding:2px 8px;border-radius:20px;}
+[data-theme="dark"] .task-badge{background:rgba(167,139,250,.18);color:var(--p2);}
+.task-acts{display:flex;gap:5px;flex-shrink:0;}
+.rewards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;}
+.rc{background:var(--glass);backdrop-filter:var(--blur);border:1px solid var(--border2);border-radius:18px;padding:18px;position:relative;overflow:hidden;transition:all .22s;}
+.rc:hover{transform:translateY(-3px);box-shadow:var(--shadow2);}
+.rc.unlocked{border-color:rgba(5,150,105,.35);}
+.rc.claimed{border-color:rgba(2,132,199,.35);opacity:.82;}
+.rc::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--p1),#e879f9,var(--e2));}
+.rc.unlocked::before{background:linear-gradient(90deg,var(--e1),#34d399,#6ee7b7);}
+.rc.claimed::before{background:linear-gradient(90deg,var(--s1),#38bdf8,var(--s2));}
+.rc-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:11px;gap:8px;}
+.rc-icon{width:44px;height:44px;border-radius:13px;background:linear-gradient(135deg,#ede9fe,#ddd6fe);display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--p1);flex-shrink:0;}
+.rc.unlocked .rc-icon{background:linear-gradient(135deg,#d1fae5,#a7f3d0);color:var(--e1);}
+.rc.claimed .rc-icon{background:linear-gradient(135deg,#e0f2fe,#bae6fd);color:var(--s1);}
+[data-theme="dark"] .rc-icon{background:rgba(124,58,237,.22);}
+[data-theme="dark"] .rc.unlocked .rc-icon{background:rgba(5,150,105,.2);}
+[data-theme="dark"] .rc.claimed .rc-icon{background:rgba(2,132,199,.2);}
+.rc-pts{font-size:11px;font-weight:700;background:linear-gradient(135deg,#fef3c7,#fde68a);color:#92400e;padding:3px 9px;border-radius:20px;white-space:nowrap;}
+[data-theme="dark"] .rc-pts{background:rgba(245,158,11,.2);color:var(--a2);}
+.rc-badge{font-size:10px;font-weight:700;letter-spacing:.04em;padding:3px 9px;border-radius:20px;display:inline-block;margin-bottom:8px;}
+.rb-locked{background:rgba(225,29,72,.1);color:var(--r1);}
+.rb-unlocked{background:rgba(5,150,105,.12);color:var(--e1);}
+.rb-claimed{background:rgba(2,132,199,.12);color:var(--s1);}
+[data-theme="dark"] .rb-locked{background:rgba(225,29,72,.2);}
+[data-theme="dark"] .rb-unlocked{background:rgba(5,150,105,.22);}
+[data-theme="dark"] .rb-claimed{background:rgba(2,132,199,.2);}
+.rc-name{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700;color:var(--text);margin-bottom:5px;}
+.rc-desc{font-size:12px;color:var(--text2);line-height:1.55;margin-bottom:13px;}
+.rc-acts{display:flex;gap:7px;margin-top:10px;}
+.rc-acts .btn{flex:1;}
+.icon-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-top:8px;}
+.ig-opt{width:36px;height:36px;border-radius:9px;background:var(--glass2);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:14px;color:var(--text2);transition:all .15s;}
+.ig-opt:hover{background:var(--p3);color:var(--p1);border-color:var(--p2);}
+.ig-opt.sel{background:linear-gradient(135deg,var(--p1),#9333ea);color:#fff;border-color:var(--p1);}
+[data-theme="dark"] .ig-opt:hover{background:rgba(124,58,237,.25);}
+.setup-screen{min-height:80vh;display:flex;align-items:center;justify-content:center;padding:20px;}
+.setup-box{background:var(--glass);backdrop-filter:var(--blur);border:1px solid var(--border2);border-radius:24px;padding:36px 32px;max-width:480px;width:100%;box-shadow:var(--shadow2);text-align:center;}
+.setup-box .icon{font-size:3rem;margin-bottom:16px;display:block;}
+.setup-box h2{font-family:'Space Grotesk',sans-serif;font-size:1.5rem;font-weight:700;color:var(--text);margin-bottom:8px;}
+.setup-box p{font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:24px;}
+.setup-box .form-fields{text-align:left;margin-bottom:20px;}
+.setup-note{font-size:11.5px;color:var(--text3);margin-top:5px;line-height:1.5;}
+.setup-note a{color:var(--p1);text-decoration:none;}
+.setup-note a:hover{text-decoration:underline;}
+[data-theme="dark"] .setup-note a{color:var(--p2);}
+.setup-warn{background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.3);border-radius:10px;padding:10px 14px;font-size:12px;color:var(--a1);text-align:left;margin-bottom:16px;line-height:1.6;}
+.divider{height:1px;background:var(--border);margin:16px 0;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+.empty{text-align:center;padding:36px 16px;color:var(--text3);}
+.empty i{font-size:2rem;margin-bottom:10px;display:block;opacity:.5;}
+.empty p{font-size:13px;color:var(--text2);}
+.toast{position:fixed;bottom:20px;right:16px;background:var(--glass);backdrop-filter:var(--blur);border:1px solid var(--border2);border-radius:16px;padding:13px 16px;display:flex;align-items:flex-start;gap:11px;box-shadow:var(--shadow2);max-width:300px;z-index:3000;transform:translateY(120%);opacity:0;transition:transform .3s cubic-bezier(.4,0,.2,1),opacity .3s;}
+.toast.show{transform:translateY(0);opacity:1;}
+.toast.ts{border-left:3px solid var(--e1);}
+.toast.te{border-left:3px solid var(--r1);}
+.toast.ti{border-left:3px solid var(--s1);}
+.toast.tw{border-left:3px solid var(--a1);}
+.toast-ic{font-size:15px;flex-shrink:0;margin-top:1px;}
+.toast.ts .toast-ic{color:var(--e1);}
+.toast.te .toast-ic{color:var(--r1);}
+.toast.ti .toast-ic{color:var(--s1);}
+.toast.tw .toast-ic{color:var(--a1);}
+.toast h4{font-size:13px;font-weight:600;color:var(--text);margin-bottom:2px;}
+.toast p{font-size:11.5px;color:var(--text2);line-height:1.4;}
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);backdrop-filter:blur(6px);z-index:2000;align-items:center;justify-content:center;padding:16px;}
+.modal-bg.open{display:flex;}
+.modal-box{background:var(--glass);backdrop-filter:var(--blur);border:1px solid var(--border2);border-radius:20px;width:100%;max-width:460px;max-height:90vh;overflow-y:auto;box-shadow:var(--shadow2);}
+.modal-head{display:flex;align-items:center;justify-content:space-between;padding:18px 20px 14px;border-bottom:1px solid var(--border);}
+.modal-head h3{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700;color:var(--text);}
+.modal-body{padding:18px 20px;}
+.modal-foot{display:flex;justify-content:flex-end;gap:9px;padding:13px 20px;border-top:1px solid var(--border);}
+@keyframes spin{to{transform:rotate(360deg);}}
+.spinner{width:14px;height:14px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;flex-shrink:0;}
+@keyframes fall{0%{transform:translateY(-60px) rotate(0deg);opacity:1;}100%{transform:translateY(110vh) rotate(720deg);opacity:0;}}
+.bit{position:fixed;top:-10px;z-index:9999;animation:fall linear forwards;pointer-events:none;}
+.tab-panel{display:none;}
+.tab-panel.active{display:block;}
+@media(max-width:900px){.two-col{grid-template-columns:1fr;}}
+@media(max-width:600px){
+  .header{padding:13px 13px 0;}.brand h1{font-size:1.05rem;}.hstats{gap:5px;}.hstat{padding:4px 9px;}.hstat .val{font-size:.9rem;}.hstat .lbl{display:none;}
+  .main{padding:14px 10px 60px;}.card{padding:15px;}.rewards-grid{grid-template-columns:1fr;}.icon-grid{grid-template-columns:repeat(8,1fr);}.setup-box{padding:24px 18px;}.tab-btn{padding:9px 13px;font-size:12px;}
+  .sync-indicator span{display:none;}
+}
+</style>
+</head>
+<body>
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+<div class="blob blob3"></div>
+<div class="wrap">
+
+<!-- SETUP -->
+<div id="setup-screen" style="display:none;">
+  <div style="display:flex;justify-content:flex-end;padding:16px 20px;">
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
+  </div>
+  <div class="setup-screen">
+    <div class="setup-box">
+      <span class="icon">⚡</span>
+      <h2>Connect GitHub Storage</h2>
+      <p>Enter your GitHub details once. Data will be saved to your repo and synced across all devices.</p>
+      <div class="setup-warn">⚠️ Keep this file private — it will contain your access token.</div>
+      <div class="setup-fields">
+        <div class="fg" style="margin-bottom:12px;">
+          <label>GitHub Username</label>
+          <input type="text" id="s-owner" class="fc" placeholder="yourusername">
+        </div>
+        <div class="fg" style="margin-bottom:12px;">
+          <label>Repository Name</label>
+          <input type="text" id="s-repo" class="fc" placeholder="my-taskmaster">
+          <div class="setup-note">Data saved as <code style="background:rgba(124,58,237,.1);padding:1px 5px;border-radius:4px;">taskmaster.json</code> in this repo.</div>
+        </div>
+        <div class="fg" style="margin-bottom:20px;">
+          <label>Personal Access Token</label>
+          <input type="password" id="s-token" class="fc" placeholder="ghp_xxxxxxxxxxxx">
+          <div class="setup-note">
+            Needs <code style="background:rgba(124,58,237,.1);padding:1px 5px;border-radius:4px;">repo</code> scope.
+            <a href="https://github.com/settings/tokens/new?scopes=repo&description=TaskMaster" target="_blank">Create token →</a>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-p" id="setup-btn" onclick="doSetup()" style="width:100%;justify-content:center;">
+        <i class="fas fa-plug"></i> Save & Connect
+      </button>
+      <div style="margin-top:14px;">
+        <button class="btn btn-g btn-sm" onclick="useLocalOnly()" style="width:100%;justify-content:center;">
+          Use without GitHub (local only)
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app" style="display:none;">
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-top">
+        <div class="brand">
+          <div class="brand-icon">🏆</div>
+          <div>
+            <h1>TaskMaster Pro</h1>
+            <p id="gh-label">Loading...</p>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="hstats">
+            <div class="hstat"><span class="val" id="h-tasks">0/0</span><span class="lbl">Tasks</span></div>
+            <div class="hstat"><span class="val" id="h-pts">0</span><span class="lbl">Points</span></div>
+            <div class="hstat"><span class="val" id="h-rew">0/0</span><span class="lbl">Rewards</span></div>
+          </div>
+          <!-- Sync Status -->
+          <div class="sync-indicator" id="sync-ind">
+            <div class="sync-dot"></div>
+            <span id="sync-txt">Ready</span>
+          </div>
+          <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode" id="theme-btn">🌙</button>
+        </div>
+      </div>
+      <div class="tabs">
+        <button class="tab-btn active" onclick="goTab('tasks',this)"><i class="fas fa-list-check"></i> Tasks</button>
+        <button class="tab-btn" onclick="goTab('rewards',this)"><i class="fas fa-gift"></i> Rewards</button>
+        <button class="tab-btn" onclick="goTab('manage',this)"><i class="fas fa-sliders"></i> Manage</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- TASKS -->
+    <div class="tab-panel active" id="panel-tasks">
+      <div class="two-col">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="ctag ctag-p"><i class="fas fa-plus"></i></div>Add Task</div>
+          </div>
+          <div class="form-row">
+            <div class="fg" style="flex:2;">
+              <label>Task</label>
+              <input type="text" id="t-name" class="fc" placeholder="What needs to be done?">
+            </div>
+            <div class="fg" style="flex:0 0 95px;">
+              <label>Points</label>
+              <input type="number" id="t-pts" class="fc" value="10" min="1" max="9999">
+            </div>
+          </div>
+          <button class="btn btn-p" id="add-task-btn" onclick="addTask()" style="width:100%;">
+            <i class="fas fa-plus"></i> Add Task
+          </button>
+          <div class="divider"></div>
+          <div class="prog-wrap">
+            <div class="prog-labels"><span>Daily completion</span><span id="d-pct">0%</span></div>
+            <div class="prog-track"><div class="prog-fill" id="d-bar" style="width:0%"></div></div>
+          </div>
+          <div class="prog-wrap" style="margin-bottom:0;">
+            <div class="prog-labels"><span>Points toward rewards</span><span id="p-prog">0 / 0 pts</span></div>
+            <div class="prog-track"><div class="prog-fill gr" id="p-bar" style="width:0%"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title"><div class="ctag ctag-p"><i class="fas fa-tasks"></i></div>My Tasks</div>
+            <span id="t-count" style="font-size:12px;color:var(--text2);">0 tasks</span>
+          </div>
+          <div class="tasks-list" id="tasks-list">
+            <div class="empty"><i class="fas fa-clipboard-list"></i><p>Add your first task!</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title"><div class="ctag ctag-e"><i class="fas fa-gift"></i></div>Rewards Overview</div>
+          <button class="btn btn-g btn-sm" onclick="goTabName('rewards')"><i class="fas fa-arrow-right"></i> See All</button>
+        </div>
+        <div class="rewards-grid" id="rew-preview"></div>
+      </div>
+    </div>
+
+    <!-- REWARDS -->
+    <div class="tab-panel" id="panel-rewards">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title"><div class="ctag ctag-e"><i class="fas fa-gift"></i></div>All Rewards</div>
+        </div>
+        <div class="rewards-grid" id="rew-full"></div>
+      </div>
+    </div>
+
+    <!-- MANAGE -->
+    <div class="tab-panel" id="panel-manage">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title"><div class="ctag ctag-a"><i class="fas fa-plus-circle"></i></div>Create Reward</div>
+        </div>
+        <div class="form-row">
+          <div class="fg" style="flex:2;">
+            <label>Title</label>
+            <input type="text" id="r-title" class="fc" placeholder="e.g. Coffee Break">
+          </div>
+          <div class="fg" style="flex:0 0 110px;">
+            <label>Points Required</label>
+            <input type="number" id="r-pts" class="fc" value="100" min="1">
+          </div>
+        </div>
+        <div class="fg" style="margin-bottom:12px;">
+          <label>Description (optional)</label>
+          <textarea id="r-desc" class="fc" placeholder="Describe the reward..."></textarea>
+        </div>
+        <div class="fg" style="margin-bottom:14px;">
+          <label>Icon</label>
+          <input type="text" id="r-icon" class="fc" value="fas fa-gift" readonly style="cursor:default;font-size:12px;color:var(--text2);">
+          <div class="icon-grid" id="ig-add"></div>
+        </div>
+        <button class="btn btn-e" onclick="addReward()" id="add-rew-btn"><i class="fas fa-plus"></i> Add Reward</button>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title"><div class="ctag ctag-s"><i class="fas fa-list"></i></div>Manage Rewards</div>
+        </div>
+        <div class="rewards-grid" id="rew-manage"></div>
+      </div>
+      <div class="card" style="border-color:rgba(225,29,72,.2);">
+        <div class="card-header">
+          <div class="card-title"><div class="ctag ctag-r"><i class="fas fa-triangle-exclamation"></i></div>Danger Zone</div>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <button class="btn btn-r" onclick="doReset()"><i class="fas fa-trash"></i> Reset All Data</button>
+          <button class="btn btn-g btn-sm" onclick="reconnect()"><i class="fas fa-plug"></i> Change GitHub Config</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+</div><!-- /wrap -->
+
+<!-- EDIT MODAL -->
+<div class="modal-bg" id="edit-modal">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h3>✏️ Edit Reward</h3>
+      <button class="btn btn-g btn-icon" onclick="closeModal('edit-modal')"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+      <input type="hidden" id="e-id">
+      <div class="fg" style="margin-bottom:12px;"><label>Title</label><input type="text" id="e-title" class="fc"></div>
+      <div class="fg" style="margin-bottom:12px;"><label>Points Required</label><input type="number" id="e-pts" class="fc" min="1"></div>
+      <div class="fg" style="margin-bottom:12px;"><label>Description</label><textarea id="e-desc" class="fc" rows="2"></textarea></div>
+      <div class="fg"><label>Icon</label>
+        <input type="text" id="e-icon" class="fc" readonly style="cursor:default;font-size:12px;color:var(--text2);">
+        <div class="icon-grid" id="ig-edit"></div>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-g" onclick="closeModal('edit-modal')">Cancel</button>
+      <button class="btn btn-p" onclick="saveEdit()"><i class="fas fa-save"></i> Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast">
+  <span class="toast-ic" id="t-ic"></span>
+  <div><h4 id="t-h"></h4><p id="t-p"></p></div>
+</div>
+
+<script>
+// ══ CONFIG ══
+let GH = {owner:'', repo:'', token:''};
+const GH_FILE = 'taskmaster.json';
+
+// ══ STATE ══
+let app = {tasks:[], rewards:[], totalPoints:0, nextTid:1, nextRid:5};
+let ghSha = null;
+let saveQueue = Promise.resolve(); // ← queue-based saving (no race conditions)
+
+const ICONS=['fas fa-gift','fas fa-trophy','fas fa-star','fas fa-crown','fas fa-medal',
+ 'fas fa-coffee','fas fa-utensils','fas fa-film','fas fa-music','fas fa-gamepad',
+ 'fas fa-book','fas fa-laptop','fas fa-headphones','fas fa-shopping-bag','fas fa-plane',
+ 'fas fa-umbrella-beach','fas fa-hamburger','fas fa-pizza-slice','fas fa-ice-cream','fas fa-cookie',
+ 'fas fa-wine-glass-alt','fas fa-dumbbell','fas fa-spa','fas fa-heart','fas fa-bicycle',
+ 'fas fa-smile','fas fa-birthday-cake','fas fa-rocket','fas fa-paint-brush','fas fa-camera'];
+
+const DEFAULT_REWARDS=[
+  {id:1,title:'Coffee Break',description:'Enjoy a relaxing coffee',pointsRequired:50,claimed:false,icon:'fas fa-coffee'},
+  {id:2,title:'Movie Night',description:'Watch a movie of your choice',pointsRequired:100,claimed:false,icon:'fas fa-film'},
+  {id:3,title:'Buy a Book',description:'Treat yourself to a new read',pointsRequired:200,claimed:false,icon:'fas fa-book'},
+  {id:4,title:'Weekend Trip',description:'Plan a mini getaway',pointsRequired:500,claimed:false,icon:'fas fa-umbrella-beach'},
+];
+
+// ══ INIT ══
+document.addEventListener('DOMContentLoaded', async () => {
+  applyTheme();
+  buildIcons();
+  try { GH = JSON.parse(localStorage.getItem('tmGH')||'{}'); } catch(e){GH={};}
+
+  if (!GH.owner || !GH.token) {
+    if (localStorage.getItem('tmLocalOnly')==='1') startApp(false);
+    else document.getElementById('setup-screen').style.display='block';
+    return;
+  }
+  startApp(true);
+});
+
+async function startApp(useGH) {
+  document.getElementById('setup-screen').style.display='none';
+  document.getElementById('app').style.display='block';
+  document.getElementById('gh-label').textContent = useGH ? `${GH.owner}/${GH.repo}` : 'Local storage only';
+
+  if (useGH) {
+    setSyncStatus('syncing', 'Loading...');
+    try {
+      const d = await ghLoad();
+      if (d) {
+        app = d;
+        setSyncStatus('synced', 'Synced');
+      } else {
+        // File doesn't exist yet — use defaults and save immediately
+        app.rewards = JSON.parse(JSON.stringify(DEFAULT_REWARDS));
+        app.nextRid = 5;
+        setSyncStatus('syncing', 'Creating...');
+        await ghSave(app);
+        setSyncStatus('synced', 'Synced');
+      }
+    } catch(e) {
+      setSyncStatus('error', 'Load failed');
+      showToast('Load failed', e.message, 'e');
+      tryLocalFallback();
+    }
+  } else {
+    tryLocalFallback();
+  }
+  render();
+  document.getElementById('t-name').addEventListener('keydown', e => { if(e.key==='Enter') addTask(); });
+}
+
+function tryLocalFallback() {
+  try {
+    const s = localStorage.getItem('tmData');
+    if (s) { app = JSON.parse(s); return; }
+  } catch(e){}
+  app.rewards = JSON.parse(JSON.stringify(DEFAULT_REWARDS));
+  app.nextRid = 5;
+}
+
+// ══ SYNC STATUS ══
+function setSyncStatus(state, text) {
+  const el = document.getElementById('sync-ind');
+  const tx = document.getElementById('sync-txt');
+  if (!el) return;
+  el.className = 'sync-indicator ' + state;
+  tx.textContent = text;
+}
+
+// ══ SETUP ══
+async function doSetup() {
+  const owner = document.getElementById('s-owner').value.trim();
+  const repo  = document.getElementById('s-repo').value.trim();
+  const token = document.getElementById('s-token').value.trim();
+  if (!owner||!repo||!token){showToast('Missing','Fill in all fields','e');return;}
+  const btn = document.getElementById('setup-btn');
+  btn.innerHTML='<span class="spinner"></span> Connecting...'; btn.disabled=true;
+  try {
+    const url=`https://api.github.com/repos/${owner}/${repo}/contents/${GH_FILE}`;
+    const r=await fetch(url,{headers:ghHead({owner,repo,token})});
+    if(r.status!==200&&r.status!==404){
+      const e=await r.json().catch(()=>({}));
+      throw new Error(e.message||`HTTP ${r.status}`);
+    }
+    GH={owner,repo,token};
+    localStorage.setItem('tmGH',JSON.stringify(GH));
+    localStorage.removeItem('tmLocalOnly');
+    startApp(true);
+  } catch(e) {
+    showToast('Connection failed', e.message, 'e');
+  }
+  btn.innerHTML='<i class="fas fa-plug"></i> Save & Connect'; btn.disabled=false;
+}
+
+function useLocalOnly() {
+  localStorage.setItem('tmLocalOnly','1');
+  startApp(false);
+}
+
+function reconnect() {
+  localStorage.removeItem('tmGH');
+  localStorage.removeItem('tmLocalOnly');
+  GH={}; ghSha=null;
+  document.getElementById('app').style.display='none';
+  document.getElementById('setup-screen').style.display='block';
+}
+
+// ══ GITHUB API ══
+function ghHead(cfg=GH){
+  return{
+    'Authorization':`token ${cfg.token}`,
+    'Accept':'application/vnd.github.v3+json',
+    'Content-Type':'application/json',
+    'X-GitHub-Api-Version':'2022-11-28'
+  };
+}
+function toB64(s){
+  const b=new TextEncoder().encode(s);let r='';
+  b.forEach(x=>r+=String.fromCharCode(x));return btoa(r);
+}
+function frB64(b){
+  const bin=atob(b.replace(/\n/g,''));
+  return new TextDecoder().decode(new Uint8Array([...bin].map(c=>c.charCodeAt(0))));
+}
+
+async function ghLoad(){
+  const r=await fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${GH_FILE}`,{headers:ghHead()});
+  if(r.status===404){ghSha=null;return null;}
+  if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.message||`HTTP ${r.status}`);}
+  const d=await r.json();
+  ghSha=d.sha;  // ← always update sha on load
+  return JSON.parse(frB64(d.content));
+}
+
+async function ghSave(data){
+  const body={
+    message:'TaskMaster update',
+    content:toB64(JSON.stringify(data,null,2))
+  };
+  // Only include sha if we have it (updating existing file)
+  // If no sha, GitHub creates the file fresh
+  if(ghSha) body.sha=ghSha;
+
+  const r=await fetch(
+    `https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${GH_FILE}`,
+    {method:'PUT', headers:ghHead(), body:JSON.stringify(body)}
+  );
+
+  if(r.status===409){
+    // Conflict: someone else updated the file. Fetch latest sha and retry once.
+    const latest = await ghLoad();
+    // Merge: use our data but with the fresh sha (already updated by ghLoad)
+    const body2={message:'TaskMaster update',content:toB64(JSON.stringify(data,null,2)),sha:ghSha};
+    const r2=await fetch(
+      `https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${GH_FILE}`,
+      {method:'PUT', headers:ghHead(), body:JSON.stringify(body2)}
+    );
+    if(!r2.ok){const e=await r2.json().catch(()=>({}));throw new Error(e.message||`HTTP ${r2.status}`);}
+    const d2=await r2.json(); ghSha=d2.content.sha;
+    return;
+  }
+
+  if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.message||`HTTP ${r.status}`);}
+  const d=await r.json();
+  ghSha=d.content.sha;  // ← always update sha after save
+}
+
+// ══ PERSIST (queue-based — no race conditions) ══
+function persist(){
+  // Always save to localStorage immediately
+  localStorage.setItem('tmData', JSON.stringify(app));
+
+  if(!GH.owner || !GH.token) return Promise.resolve();
+
+  // Queue GitHub saves so they never overlap
+  saveQueue = saveQueue.then(async () => {
+    setSyncStatus('syncing', 'Saving...');
+    try {
+      await ghSave(JSON.parse(JSON.stringify(app))); // deep copy to snapshot current state
+      setSyncStatus('synced', 'Saved ✓');
+      setTimeout(() => setSyncStatus('synced', 'Synced'), 2000);
+    } catch(e) {
+      setSyncStatus('error', 'Save failed');
+      showToast('Save failed', e.message, 'e');
+    }
+  });
+
+  return saveQueue;
+}
+
+// ══ TASKS ══
+async function addTask(){
+  const name=document.getElementById('t-name').value.trim();
+  const pts=parseInt(document.getElementById('t-pts').value)||10;
+  if(!name){showToast('Empty','Enter a task description','e');return;}
+  const btn=document.getElementById('add-task-btn');
+  btn.innerHTML='<span class="spinner"></span>'; btn.disabled=true;
+  app.tasks.push({id:app.nextTid++,text:name,points:pts,completed:false,createdAt:new Date().toISOString()});
+  document.getElementById('t-name').value='';
+  document.getElementById('t-pts').value='10';
+  render();
+  await persist();
+  btn.innerHTML='<i class="fas fa-plus"></i> Add Task'; btn.disabled=false;
+  showToast('Task added',`"${name}" · ${pts} pts`,'s');
+}
+
+async function toggleTask(id){
+  const t=app.tasks.find(x=>x.id===id); if(!t)return;
+  t.completed=!t.completed;
+  app.totalPoints += t.completed ? t.points : -t.points;
+  if(app.totalPoints<0) app.totalPoints=0;
+  render();
+  await persist();
+  if(t.completed) showToast('Done! 🎉',`+${t.points} points earned`,'s');
+}
+
+async function deleteTask(id){
+  const t=app.tasks.find(x=>x.id===id); if(!t)return;
+  if(t.completed){app.totalPoints-=t.points; if(app.totalPoints<0)app.totalPoints=0;}
+  app.tasks=app.tasks.filter(x=>x.id!==id);
+  render();
+  await persist();
+  showToast('Deleted',`"${t.text}" removed`,'w');
+}
+
+// ══ REWARDS ══
+async function addReward(){
+  const title=document.getElementById('r-title').value.trim();
+  const pts=parseInt(document.getElementById('r-pts').value)||100;
+  const desc=document.getElementById('r-desc').value.trim();
+  const icon=document.getElementById('r-icon').value;
+  if(!title){showToast('Empty','Enter a reward title','e');return;}
+  const btn=document.getElementById('add-rew-btn');
+  btn.innerHTML='<span class="spinner"></span>'; btn.disabled=true;
+  app.rewards.push({id:app.nextRid++,title,description:desc||'No description',pointsRequired:pts,claimed:false,icon});
+  document.getElementById('r-title').value='';
+  document.getElementById('r-pts').value='100';
+  document.getElementById('r-desc').value='';
+  selIcon('fas fa-gift','add');
+  render();
+  await persist();
+  btn.innerHTML='<i class="fas fa-plus"></i> Add Reward'; btn.disabled=false;
+  showToast('Reward added',`"${title}" created`,'s');
+}
+
+async function claimReward(id){
+  const r=app.rewards.find(x=>x.id===id); if(!r||r.claimed)return;
+  if(app.totalPoints<r.pointsRequired){
+    showToast('Not enough points',`Need ${r.pointsRequired-app.totalPoints} more`,'w'); return;
+  }
+  r.claimed=true;
+  render();
+  await persist();
+  confetti();
+  showToast('Claimed! 🎊',`Enjoy "${r.title}"`,'s');
+}
+
+async function unclaimReward(id){
+  const r=app.rewards.find(x=>x.id===id); if(!r)return;
+  r.claimed=false;
+  render();
+  await persist();
+  showToast('Unclaimed',`"${r.title}" available again`,'i');
+}
+
+async function deleteReward(id){
+  const r=app.rewards.find(x=>x.id===id); if(!r)return;
+  if(!confirm(`Delete "${r.title}"?`))return;
+  app.rewards=app.rewards.filter(x=>x.id!==id);
+  render();
+  await persist();
+  showToast('Deleted',`"${r.title}" removed`,'w');
+}
+
+function openEdit(id){
+  const r=app.rewards.find(x=>x.id===id); if(!r)return;
+  document.getElementById('e-id').value=id;
+  document.getElementById('e-title').value=r.title;
+  document.getElementById('e-pts').value=r.pointsRequired;
+  document.getElementById('e-desc').value=r.description;
+  selIcon(r.icon,'edit');
+  openModal('edit-modal');
+}
+
+async function saveEdit(){
+  const id=parseInt(document.getElementById('e-id').value);
+  const r=app.rewards.find(x=>x.id===id); if(!r)return;
+  r.title=document.getElementById('e-title').value.trim()||r.title;
+  r.pointsRequired=parseInt(document.getElementById('e-pts').value)||r.pointsRequired;
+  r.description=document.getElementById('e-desc').value.trim()||'No description';
+  r.icon=document.getElementById('e-icon').value;
+  closeModal('edit-modal');
+  render();
+  await persist();
+  showToast('Saved',`"${r.title}" updated`,'s');
+}
+
+async function doReset(){
+  if(!confirm('Reset ALL data? Cannot be undone.'))return;
+  app={tasks:[],rewards:JSON.parse(JSON.stringify(DEFAULT_REWARDS)),totalPoints:0,nextTid:1,nextRid:5};
+  ghSha=null;
+  render();
+  await persist();
+  showToast('Reset','All data cleared','i');
+}
+
+// ══ RENDER ══
+function render(){renderTasks();renderRewards();renderStats();}
+
+function renderTasks(){
+  const list=document.getElementById('tasks-list');
+  const cnt=document.getElementById('t-count');
+  const sorted=[...app.tasks].sort((a,b)=>a.completed===b.completed?new Date(b.createdAt)-new Date(a.createdAt):a.completed?1:-1);
+  cnt.textContent=`${app.tasks.length} task${app.tasks.length!==1?'s':''}`;
+  if(!sorted.length){
+    list.innerHTML='<div class="empty"><i class="fas fa-clipboard-list"></i><p>Add your first task!</p></div>';
+    setBar('d-bar',0); setBar('p-bar',0);
+    document.getElementById('d-pct').textContent='0%';
+    document.getElementById('p-prog').textContent='0 / 0 pts';
+    return;
+  }
+  list.innerHTML=sorted.map(t=>`
+    <div class="task-item${t.completed?' done':''}">
+      <button class="task-cb" onclick="toggleTask(${t.id})">
+        ${t.completed?'<i class="fas fa-check"></i>':''}
+      </button>
+      <div class="task-body">
+        <div class="task-txt">${esc(t.text)}</div>
+        <span class="task-badge">+${t.points} pts</span>
+      </div>
+      <div class="task-acts">
+        <button class="btn btn-g btn-icon btn-sm" onclick="deleteTask(${t.id})" title="Delete">
+          <i class="fas fa-trash" style="color:var(--r1);font-size:11px;"></i>
+        </button>
+      </div>
+    </div>`).join('');
+
+  const today=new Date().toDateString();
+  const tod=app.tasks.filter(t=>new Date(t.createdAt).toDateString()===today);
+  const dp=tod.length?Math.round(tod.filter(t=>t.completed).length/tod.length*100):0;
+  setBar('d-bar',dp); document.getElementById('d-pct').textContent=dp+'%';
+
+  const tr=app.rewards.reduce((s,r)=>s+r.pointsRequired,0);
+  const pp=tr?Math.min(100,Math.round(app.totalPoints/tr*100)):0;
+  setBar('p-bar',pp);
+  document.getElementById('p-prog').textContent=`${app.totalPoints} / ${tr} pts`;
+}
+
+function rcHTML(r,mode){
+  const pct=Math.min(100,Math.round(app.totalPoints/r.pointsRequired*100));
+  const ul=app.totalPoints>=r.pointsRequired;
+  const cls=r.claimed?'claimed':ul?'unlocked':'';
+  const badge=r.claimed?'<span class="rc-badge rb-claimed">✓ CLAIMED</span>'
+    :ul?'<span class="rc-badge rb-unlocked">🔓 READY</span>'
+    :`<span class="rc-badge rb-locked">${r.pointsRequired-app.totalPoints} pts needed</span>`;
+  const acts=mode==='manage'
+    ?`<button class="btn btn-a btn-sm" onclick="openEdit(${r.id})"><i class="fas fa-pen"></i></button>
+       <button class="btn btn-r btn-sm" onclick="deleteReward(${r.id})"><i class="fas fa-trash"></i></button>
+       ${r.claimed?`<button class="btn btn-g btn-sm" onclick="unclaimReward(${r.id})" title="Unclaim"><i class="fas fa-undo"></i></button>`:''}`
+    :r.claimed
+      ?`<button class="btn btn-g" style="flex:1" onclick="unclaimReward(${r.id})"><i class="fas fa-undo"></i> Unclaim</button>`
+      :ul
+      ?`<button class="btn btn-e" style="flex:1" onclick="claimReward(${r.id})"><i class="fas fa-gift"></i> Claim!</button>`
+      :`<button class="btn btn-g" style="flex:1" disabled><i class="fas fa-lock"></i> ${pct}% there</button>`;
+  return`<div class="rc ${cls}">
+    <div class="rc-top"><div class="rc-icon"><i class="${r.icon}"></i></div><span class="rc-pts">${r.pointsRequired} pts</span></div>
+    ${badge}
+    <div class="rc-name">${esc(r.title)}</div>
+    <div class="rc-desc">${esc(r.description)}</div>
+    <div class="prog-wrap" style="margin-bottom:0;">
+      <div class="prog-labels" style="margin-bottom:4px;"><span style="font-size:11px;">Progress</span><span style="font-size:11px;">${pct}%</span></div>
+      <div class="prog-track"><div class="prog-fill${r.claimed||ul?' gr':''}" style="width:${pct}%"></div></div>
+    </div>
+    <div class="rc-acts">${acts}</div>
+  </div>`;
+}
+
+function renderRewards(){
+  const sorted=[...app.rewards].sort((a,b)=>a.pointsRequired-b.pointsRequired);
+  const empty='<div class="empty"><i class="fas fa-gift"></i><p>No rewards yet.</p></div>';
+  const html=sorted.length?sorted.map(r=>rcHTML(r,'view')).join(''):empty;
+  document.getElementById('rew-preview').innerHTML=html;
+  document.getElementById('rew-full').innerHTML=html;
+  document.getElementById('rew-manage').innerHTML=sorted.length?sorted.map(r=>rcHTML(r,'manage')).join(''):empty;
+}
+
+function renderStats(){
+  const done=app.tasks.filter(t=>t.completed).length;
+  document.getElementById('h-tasks').textContent=`${done}/${app.tasks.length}`;
+  document.getElementById('h-pts').textContent=app.totalPoints;
+  const ul=app.rewards.filter(r=>app.totalPoints>=r.pointsRequired).length;
+  document.getElementById('h-rew').textContent=`${ul}/${app.rewards.length}`;
+}
+
+function setBar(id,pct){document.getElementById(id).style.width=pct+'%';}
+
+// ══ ICONS ══
+function buildIcons(){
+  ['ig-add','ig-edit'].forEach(gid=>{
+    const mode=gid==='ig-add'?'add':'edit';
+    document.getElementById(gid).innerHTML=ICONS.map(ic=>
+      `<div class="ig-opt${ic==='fas fa-gift'&&mode==='add'?' sel':''}" 
+           onclick="selIcon('${ic}','${mode}')" title="${ic}">
+         <i class="${ic}"></i>
+       </div>`).join('');
+  });
+}
+function selIcon(icon,mode){
+  const gid=mode==='add'?'ig-add':'ig-edit';
+  const inp=mode==='add'?'r-icon':'e-icon';
+  document.getElementById(inp).value=icon;
+  document.querySelectorAll(`#${gid} .ig-opt`).forEach(el=>
+    el.classList.toggle('sel',el.querySelector('i').className===icon));
+}
+
+// ══ TABS ══
+function goTab(name,btn){
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  if(btn)btn.classList.add('active');
+  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+name).classList.add('active');
+}
+function goTabName(name){
+  const map={tasks:0,rewards:1,manage:2};
+  const btns=document.querySelectorAll('.tab-btn');
+  goTab(name,btns[map[name]]);
+}
+
+// ══ MODALS ══
+function openModal(id){document.getElementById(id).classList.add('open');}
+function closeModal(id){document.getElementById(id).classList.remove('open');}
+document.querySelectorAll('.modal-bg').forEach(m=>
+  m.addEventListener('click',e=>{if(e.target===m)m.classList.remove('open');}));
+
+// ══ TOAST ══
+let ttimer;
+const TICS={s:'<i class="fas fa-check-circle"></i>',e:'<i class="fas fa-circle-xmark"></i>',
+            i:'<i class="fas fa-circle-info"></i>',w:'<i class="fas fa-triangle-exclamation"></i>'};
+const TCLS={s:'ts',e:'te',i:'ti',w:'tw'};
+function showToast(h,p,type='s'){
+  const el=document.getElementById('toast');
+  document.getElementById('t-ic').innerHTML=TICS[type]||TICS.i;
+  document.getElementById('t-h').textContent=h;
+  document.getElementById('t-p').textContent=p;
+  el.className=`toast ${TCLS[type]||'ti'} show`;
+  clearTimeout(ttimer); ttimer=setTimeout(()=>el.classList.remove('show'),4000);
+}
+
+// ══ THEME ══
+function applyTheme(){
+  const t=localStorage.getItem('tmTheme')||'light';
+  document.documentElement.setAttribute('data-theme',t);
+  updateThemeBtn(t);
+}
+function toggleTheme(){
+  const cur=document.documentElement.getAttribute('data-theme');
+  const next=cur==='dark'?'light':'dark';
+  document.documentElement.setAttribute('data-theme',next);
+  localStorage.setItem('tmTheme',next);
+  updateThemeBtn(next);
+}
+function updateThemeBtn(t){
+  const el=document.getElementById('theme-btn');
+  if(el) el.textContent=t==='dark'?'☀️':'🌙';
+}
+
+// ══ CONFETTI ══
+function confetti(){
+  const c=['#7c3aed','#a78bfa','#10b981','#f59e0b','#f43f5e','#0ea5e9','#e879f9','#34d399'];
+  for(let i=0;i<70;i++){
+    const el=document.createElement('div'); el.className='bit';
+    const sz=Math.random()*9+4;
+    el.style.cssText=`left:${Math.random()*100}vw;background:${c[~~(Math.random()*c.length)]};
+      width:${sz}px;height:${sz}px;border-radius:${Math.random()>.5?'50%':'3px'};
+      animation:fall ${Math.random()*2+2}s ${Math.random()*.6}s linear forwards;`;
+    document.body.appendChild(el);
+    setTimeout(()=>el.remove(),4000);
+  }
+}
+
+// ══ UTILS ══
+function esc(s=''){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+</script>
+</body>
+</html>
