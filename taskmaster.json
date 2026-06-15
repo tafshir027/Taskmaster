@@ -13,6 +13,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-06-15T12:02:30.332Z"
+    },
+    {
+      "id": 3,
+      "text": "Amazon kindle Account with verify",
+      "points": 200,
+      "completed": false,
+      "createdAt": "2026-06-15T17:54:47.534Z"
     }
   ],
   "rewards": [
@@ -26,6 +33,6 @@
     }
   ],
   "totalPoints": 6250,
-  "nextTid": 3,
+  "nextTid": 4,
   "nextRid": 6
 }
