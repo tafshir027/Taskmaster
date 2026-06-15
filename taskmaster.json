@@ -16,14 +16,6 @@
       "pointsRequired": 200,
       "claimed": false,
       "icon": "fas fa-book"
-    },
-    {
-      "id": 4,
-      "title": "Weekend Trip",
-      "description": "Plan a mini getaway",
-      "pointsRequired": 500,
-      "claimed": false,
-      "icon": "fas fa-umbrella-beach"
     }
   ],
   "totalPoints": 0,
