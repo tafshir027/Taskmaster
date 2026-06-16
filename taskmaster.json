@@ -11,7 +11,7 @@
       "id": 2,
       "text": "Next tools",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-15T12:02:30.332Z"
     },
     {
@@ -32,7 +32,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 6450,
+  "totalPoints": 6550,
   "nextTid": 4,
   "nextRid": 6
 }
