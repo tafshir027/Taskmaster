@@ -53,7 +53,7 @@
       "id": 8,
       "text": "tools 5",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-17T16:32:51.831Z"
     }
   ],
@@ -67,7 +67,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 6850,
+  "totalPoints": 6950,
   "nextTid": 9,
   "nextRid": 6
 }
