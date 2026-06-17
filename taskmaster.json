@@ -34,6 +34,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-06-16T10:06:23.728Z"
+    },
+    {
+      "id": 6,
+      "text": "tools 3",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-17T15:03:44.850Z"
     }
   ],
   "rewards": [
@@ -47,6 +54,6 @@
     }
   ],
   "totalPoints": 6650,
-  "nextTid": 6,
+  "nextTid": 7,
   "nextRid": 6
 }
