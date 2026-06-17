@@ -48,6 +48,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-06-17T15:04:40.785Z"
+    },
+    {
+      "id": 8,
+      "text": "tools 5",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-17T16:32:51.831Z"
     }
   ],
   "rewards": [
@@ -61,6 +68,6 @@
     }
   ],
   "totalPoints": 6850,
-  "nextTid": 8,
+  "nextTid": 9,
   "nextRid": 6
 }
