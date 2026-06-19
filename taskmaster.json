@@ -69,6 +69,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-06-19T08:14:57.541Z"
+    },
+    {
+      "id": 11,
+      "text": "Free - 10 GB",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-19T08:16:12.126Z"
     }
   ],
   "rewards": [
@@ -82,6 +89,6 @@
     }
   ],
   "totalPoints": 7150,
-  "nextTid": 11,
+  "nextTid": 12,
   "nextRid": 6
 }
