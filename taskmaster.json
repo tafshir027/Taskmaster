@@ -88,7 +88,7 @@
       "id": 13,
       "text": "website Backup-1",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-19T12:35:38.962Z"
     },
     {
@@ -109,7 +109,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 7350,
+  "totalPoints": 7450,
   "nextTid": 15,
   "nextRid": 6
 }
