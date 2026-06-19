@@ -67,7 +67,7 @@
       "id": 10,
       "text": "Link Bookmark Tools",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-19T08:14:57.541Z"
     },
     {
@@ -88,7 +88,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 7150,
+  "totalPoints": 7250,
   "nextTid": 12,
   "nextRid": 6
 }
