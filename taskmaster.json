@@ -95,7 +95,7 @@
       "id": 14,
       "text": "website-1 -update Plugin",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-19T12:37:16.425Z"
     }
   ],
@@ -109,7 +109,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 7450,
+  "totalPoints": 7550,
   "nextTid": 15,
   "nextRid": 6
 }
