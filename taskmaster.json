@@ -90,6 +90,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-06-19T12:35:38.962Z"
+    },
+    {
+      "id": 14,
+      "text": "website-1 -update Plugin",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-19T12:37:16.425Z"
     }
   ],
   "rewards": [
@@ -103,6 +110,6 @@
     }
   ],
   "totalPoints": 7350,
-  "nextTid": 14,
+  "nextTid": 15,
   "nextRid": 6
 }
