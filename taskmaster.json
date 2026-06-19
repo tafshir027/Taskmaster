@@ -111,6 +111,13 @@
       "points": 200,
       "completed": true,
       "createdAt": "2026-06-19T13:03:31.501Z"
+    },
+    {
+      "id": 18,
+      "text": "Necessary Apps",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-19T13:07:19.052Z"
     }
   ],
   "rewards": [
@@ -124,6 +131,6 @@
     }
   ],
   "totalPoints": 8350,
-  "nextTid": 18,
+  "nextTid": 19,
   "nextRid": 6
 }
