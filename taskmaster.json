@@ -81,7 +81,7 @@
       "id": 12,
       "text": "password safety",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-19T08:49:14.432Z"
     }
   ],
@@ -95,7 +95,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 7250,
+  "totalPoints": 7350,
   "nextTid": 13,
   "nextRid": 6
 }
