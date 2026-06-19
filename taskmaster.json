@@ -111,6 +111,13 @@
       "points": 200,
       "completed": true,
       "createdAt": "2026-06-19T13:03:31.501Z"
+    },
+    {
+      "id": 17,
+      "text": "Clear Memory",
+      "points": 200,
+      "completed": false,
+      "createdAt": "2026-06-19T13:06:17.773Z"
     }
   ],
   "rewards": [
@@ -124,6 +131,6 @@
     }
   ],
   "totalPoints": 8350,
-  "nextTid": 17,
+  "nextTid": 18,
   "nextRid": 6
 }
