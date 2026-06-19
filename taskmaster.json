@@ -102,7 +102,7 @@
       "id": 15,
       "text": "Uplaod 28GB",
       "points": 600,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-19T12:56:34.535Z"
     }
   ],
@@ -116,7 +116,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 7550,
+  "totalPoints": 8150,
   "nextTid": 16,
   "nextRid": 6
 }
