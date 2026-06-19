@@ -83,6 +83,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-06-19T08:49:14.432Z"
+    },
+    {
+      "id": 13,
+      "text": "website Backup-1",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-19T12:35:38.962Z"
     }
   ],
   "rewards": [
@@ -96,6 +103,6 @@
     }
   ],
   "totalPoints": 7350,
-  "nextTid": 13,
+  "nextTid": 14,
   "nextRid": 6
 }
