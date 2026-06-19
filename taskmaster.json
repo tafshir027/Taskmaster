@@ -55,6 +55,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-06-17T16:32:51.831Z"
+    },
+    {
+      "id": 9,
+      "text": "Paper Collection",
+      "points": 200,
+      "completed": false,
+      "createdAt": "2026-06-19T07:51:35.667Z"
     }
   ],
   "rewards": [
@@ -68,6 +75,6 @@
     }
   ],
   "totalPoints": 6950,
-  "nextTid": 9,
+  "nextTid": 10,
   "nextRid": 6
 }
