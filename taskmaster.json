@@ -60,7 +60,7 @@
       "id": 9,
       "text": "Paper Collection",
       "points": 200,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-19T07:51:35.667Z"
     }
   ],
@@ -74,7 +74,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 6950,
+  "totalPoints": 7150,
   "nextTid": 10,
   "nextRid": 6
 }
