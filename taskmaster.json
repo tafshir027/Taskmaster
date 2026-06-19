@@ -104,6 +104,13 @@
       "points": 600,
       "completed": true,
       "createdAt": "2026-06-19T12:56:34.535Z"
+    },
+    {
+      "id": 16,
+      "text": "Memory Clean",
+      "points": 200,
+      "completed": false,
+      "createdAt": "2026-06-19T13:03:31.501Z"
     }
   ],
   "rewards": [
@@ -117,6 +124,6 @@
     }
   ],
   "totalPoints": 8150,
-  "nextTid": 16,
+  "nextTid": 17,
   "nextRid": 6
 }
