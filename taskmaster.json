@@ -116,7 +116,7 @@
       "id": 18,
       "text": "Necessary Apps",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-19T13:07:19.052Z"
     }
   ],
@@ -130,7 +130,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 8350,
+  "totalPoints": 8450,
   "nextTid": 19,
   "nextRid": 6
 }
