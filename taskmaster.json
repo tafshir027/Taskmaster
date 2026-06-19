@@ -76,6 +76,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-06-19T08:16:12.126Z"
+    },
+    {
+      "id": 12,
+      "text": "password safety",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-19T08:49:14.432Z"
     }
   ],
   "rewards": [
@@ -89,6 +96,6 @@
     }
   ],
   "totalPoints": 7250,
-  "nextTid": 12,
+  "nextTid": 13,
   "nextRid": 6
 }
