@@ -193,7 +193,7 @@
       "id": 30,
       "text": "website backup",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-26T21:23:26.429Z"
     },
     {
@@ -222,7 +222,7 @@
       "icon": "fas fa-plane"
     }
   ],
-  "totalPoints": 9200,
+  "totalPoints": 9250,
   "nextTid": 32,
   "nextRid": 7
 }
