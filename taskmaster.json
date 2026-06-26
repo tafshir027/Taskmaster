@@ -137,7 +137,7 @@
       "id": 21,
       "text": "video 2",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-26T14:05:15.207Z"
     }
   ],
@@ -159,7 +159,7 @@
       "icon": "fas fa-plane"
     }
   ],
-  "totalPoints": 8650,
+  "totalPoints": 8750,
   "nextTid": 22,
   "nextRid": 7
 }
