@@ -128,9 +128,17 @@
       "pointsRequired": 10000,
       "claimed": false,
       "icon": "fas fa-umbrella-beach"
+    },
+    {
+      "id": 6,
+      "title": "Tour All Coutry",
+      "description": "No description",
+      "pointsRequired": 100000,
+      "claimed": false,
+      "icon": "fas fa-plane"
     }
   ],
   "totalPoints": 8450,
   "nextTid": 19,
-  "nextRid": 6
+  "nextRid": 7
 }
