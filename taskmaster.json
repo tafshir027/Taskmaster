@@ -125,6 +125,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-06-26T12:49:18.937Z"
+    },
+    {
+      "id": 20,
+      "text": "faq tools",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-06-26T14:05:00.401Z"
     }
   ],
   "rewards": [
@@ -146,6 +153,6 @@
     }
   ],
   "totalPoints": 8550,
-  "nextTid": 20,
+  "nextTid": 21,
   "nextRid": 7
 }
