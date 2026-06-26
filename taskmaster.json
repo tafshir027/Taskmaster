@@ -130,7 +130,7 @@
       "id": 20,
       "text": "faq tools",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-26T14:05:00.401Z"
     }
   ],
@@ -152,7 +152,7 @@
       "icon": "fas fa-plane"
     }
   ],
-  "totalPoints": 8550,
+  "totalPoints": 8650,
   "nextTid": 21,
   "nextRid": 7
 }
