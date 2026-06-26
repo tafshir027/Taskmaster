@@ -188,6 +188,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-06-26T20:18:05.555Z"
+    },
+    {
+      "id": 30,
+      "text": "website backup",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-06-26T21:23:26.429Z"
     }
   ],
   "rewards": [
@@ -209,6 +216,6 @@
     }
   ],
   "totalPoints": 9200,
-  "nextTid": 30,
+  "nextTid": 31,
   "nextRid": 7
 }
