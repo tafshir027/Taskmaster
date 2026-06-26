@@ -146,13 +146,6 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-06-26T17:41:48.033Z"
-    },
-    {
-      "id": 23,
-      "text": "update tools 2",
-      "points": 10,
-      "completed": false,
-      "createdAt": "2026-06-26T17:44:39.321Z"
     }
   ],
   "rewards": [
