@@ -139,6 +139,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-06-26T14:05:15.207Z"
+    },
+    {
+      "id": 22,
+      "text": "update tools 1",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-06-26T17:41:48.033Z"
     }
   ],
   "rewards": [
@@ -160,6 +167,6 @@
     }
   ],
   "totalPoints": 8750,
-  "nextTid": 22,
+  "nextTid": 23,
   "nextRid": 7
 }
