@@ -200,7 +200,7 @@
       "id": 31,
       "text": "elementor Pro",
       "points": 300,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-27T19:15:23.788Z"
     }
   ],
@@ -222,7 +222,7 @@
       "icon": "fas fa-plane"
     }
   ],
-  "totalPoints": 9500,
+  "totalPoints": 9800,
   "nextTid": 32,
   "nextRid": 7
 }
