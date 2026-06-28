@@ -256,7 +256,7 @@
       "id": 39,
       "text": "web 15",
       "points": 750,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-28T19:55:27.531Z"
     }
   ],
@@ -278,7 +278,7 @@
       "icon": "fas fa-plane"
     }
   ],
-  "totalPoints": 11500,
+  "totalPoints": 12250,
   "nextTid": 40,
   "nextRid": 7
 }
