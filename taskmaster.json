@@ -223,6 +223,13 @@
       "points": 200,
       "completed": true,
       "createdAt": "2026-06-28T14:19:57.108Z"
+    },
+    {
+      "id": 35,
+      "text": "card",
+      "points": 200,
+      "completed": false,
+      "createdAt": "2026-06-28T14:55:30.545Z"
     }
   ],
   "rewards": [
@@ -244,6 +251,6 @@
     }
   ],
   "totalPoints": 10700,
-  "nextTid": 35,
+  "nextTid": 36,
   "nextRid": 7
 }
