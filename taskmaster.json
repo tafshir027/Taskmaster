@@ -221,7 +221,7 @@
       "id": 34,
       "text": "header Title",
       "points": 200,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-28T14:19:57.108Z"
     }
   ],
@@ -243,7 +243,7 @@
       "icon": "fas fa-plane"
     }
   ],
-  "totalPoints": 10500,
+  "totalPoints": 10700,
   "nextTid": 35,
   "nextRid": 7
 }
