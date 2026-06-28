@@ -202,6 +202,13 @@
       "points": 300,
       "completed": true,
       "createdAt": "2026-06-27T19:15:23.788Z"
+    },
+    {
+      "id": 32,
+      "text": "Design Home page",
+      "points": 500,
+      "completed": false,
+      "createdAt": "2026-06-28T06:10:31.040Z"
     }
   ],
   "rewards": [
@@ -223,6 +230,6 @@
     }
   ],
   "totalPoints": 9800,
-  "nextTid": 32,
+  "nextTid": 33,
   "nextRid": 7
 }
