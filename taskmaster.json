@@ -272,6 +272,13 @@
       "points": 200,
       "completed": false,
       "createdAt": "2026-06-29T12:15:06.536Z"
+    },
+    {
+      "id": 42,
+      "text": "return policy page",
+      "points": 200,
+      "completed": false,
+      "createdAt": "2026-06-29T12:15:20.530Z"
     }
   ],
   "rewards": [
@@ -293,6 +300,6 @@
     }
   ],
   "totalPoints": 13000,
-  "nextTid": 42,
+  "nextTid": 43,
   "nextRid": 7
 }
