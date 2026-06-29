@@ -265,6 +265,13 @@
       "points": 750,
       "completed": true,
       "createdAt": "2026-06-29T11:44:39.413Z"
+    },
+    {
+      "id": 41,
+      "text": "privecy paage",
+      "points": 200,
+      "completed": false,
+      "createdAt": "2026-06-29T12:15:06.536Z"
     }
   ],
   "rewards": [
@@ -286,6 +293,6 @@
     }
   ],
   "totalPoints": 13000,
-  "nextTid": 41,
+  "nextTid": 42,
   "nextRid": 7
 }
