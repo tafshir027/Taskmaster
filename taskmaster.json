@@ -270,7 +270,7 @@
       "id": 41,
       "text": "privecy paage",
       "points": 200,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-06-29T12:15:06.536Z"
     },
     {
@@ -299,7 +299,7 @@
       "icon": "fas fa-plane"
     }
   ],
-  "totalPoints": 13200,
+  "totalPoints": 13400,
   "nextTid": 43,
   "nextRid": 7
 }
