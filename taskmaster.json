@@ -258,6 +258,13 @@
       "points": 750,
       "completed": true,
       "createdAt": "2026-06-28T19:55:27.531Z"
+    },
+    {
+      "id": 40,
+      "text": "website",
+      "points": 750,
+      "completed": false,
+      "createdAt": "2026-06-29T11:44:39.413Z"
     }
   ],
   "rewards": [
@@ -279,6 +286,6 @@
     }
   ],
   "totalPoints": 12250,
-  "nextTid": 40,
+  "nextTid": 41,
   "nextRid": 7
 }
