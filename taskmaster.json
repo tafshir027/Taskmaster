@@ -298,7 +298,7 @@
       "id": 45,
       "text": "2 logo + banner",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-03T09:49:40.334Z"
     }
   ],
@@ -320,7 +320,7 @@
       "icon": "fas fa-plane"
     }
   ],
-  "totalPoints": 13800,
+  "totalPoints": 13900,
   "nextTid": 46,
   "nextRid": 7
 }
