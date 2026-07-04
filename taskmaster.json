@@ -335,6 +335,13 @@
       "points": 200,
       "completed": true,
       "createdAt": "2026-07-04T14:09:42.355Z"
+    },
+    {
+      "id": 52,
+      "text": "2 slide",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-04T14:48:06.653Z"
     }
   ],
   "rewards": [
@@ -364,6 +371,6 @@
     }
   ],
   "totalPoints": 14350,
-  "nextTid": 52,
+  "nextTid": 53,
   "nextRid": 8
 }
