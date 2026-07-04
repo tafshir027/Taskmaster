@@ -328,6 +328,13 @@
       "points": 10,
       "completed": false,
       "createdAt": "2026-07-04T13:21:07.219Z"
+    },
+    {
+      "id": 50,
+      "text": "telegram",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-04T13:21:22.633Z"
     }
   ],
   "rewards": [
@@ -357,6 +364,6 @@
     }
   ],
   "totalPoints": 14050,
-  "nextTid": 50,
+  "nextTid": 51,
   "nextRid": 8
 }
