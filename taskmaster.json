@@ -300,6 +300,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-03T09:49:40.334Z"
+    },
+    {
+      "id": 46,
+      "text": "class video",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-07-04T07:24:08.763Z"
     }
   ],
   "rewards": [
@@ -329,6 +336,6 @@
     }
   ],
   "totalPoints": 13900,
-  "nextTid": 46,
+  "nextTid": 47,
   "nextRid": 8
 }
