@@ -308,7 +308,7 @@
       "title": "Tour 1",
       "description": "No description",
       "pointsRequired": 10000,
-      "claimed": false,
+      "claimed": true,
       "icon": "fas fa-umbrella-beach"
     },
     {
