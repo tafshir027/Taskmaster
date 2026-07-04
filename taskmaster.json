@@ -314,6 +314,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-04T07:30:03.051Z"
+    },
+    {
+      "id": 48,
+      "text": "SPSS Course Outlines",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-04T13:11:02.361Z"
     }
   ],
   "rewards": [
@@ -343,6 +350,6 @@
     }
   ],
   "totalPoints": 14050,
-  "nextTid": 48,
+  "nextTid": 49,
   "nextRid": 8
 }
