@@ -312,7 +312,7 @@
       "id": 47,
       "text": "Money Managements",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-04T07:30:03.051Z"
     }
   ],
@@ -342,7 +342,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 13950,
+  "totalPoints": 14050,
   "nextTid": 48,
   "nextRid": 8
 }
