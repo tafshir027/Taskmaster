@@ -312,15 +312,15 @@
       "id": 47,
       "text": "Money Managements",
       "points": 100,
-      "completed": true,
+      "completed": false,
       "createdAt": "2026-07-04T07:30:03.051Z"
     },
     {
       "id": 48,
-      "text": "SPSS Course Outlines",
+      "text": "download SPSS",
       "points": 100,
       "completed": false,
-      "createdAt": "2026-07-04T13:11:02.361Z"
+      "createdAt": "2026-07-04T13:20:20.603Z"
     }
   ],
   "rewards": [
@@ -349,7 +349,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 14050,
+  "totalPoints": 13950,
   "nextTid": 49,
   "nextRid": 8
 }
