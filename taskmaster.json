@@ -333,7 +333,7 @@
       "id": 51,
       "text": "SPSS Course Outlines",
       "points": 200,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-04T14:09:42.355Z"
     }
   ],
@@ -363,7 +363,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 14150,
+  "totalPoints": 14350,
   "nextTid": 52,
   "nextRid": 8
 }
