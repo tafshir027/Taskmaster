@@ -305,7 +305,7 @@
       "id": 46,
       "text": "class video",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-04T07:24:08.763Z"
     }
   ],
@@ -335,7 +335,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 13900,
+  "totalPoints": 13950,
   "nextTid": 47,
   "nextRid": 8
 }
