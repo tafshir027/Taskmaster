@@ -319,7 +319,7 @@
       "id": 48,
       "text": "download SPSS",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-04T13:20:20.603Z"
     },
     {
@@ -363,7 +363,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 14050,
+  "totalPoints": 14150,
   "nextTid": 51,
   "nextRid": 8
 }
