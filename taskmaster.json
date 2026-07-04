@@ -340,7 +340,7 @@
       "id": 52,
       "text": "2 slide",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-04T14:48:06.653Z"
     }
   ],
@@ -370,7 +370,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 14350,
+  "totalPoints": 14450,
   "nextTid": 53,
   "nextRid": 8
 }
