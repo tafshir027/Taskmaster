@@ -307,6 +307,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-04T07:24:08.763Z"
+    },
+    {
+      "id": 47,
+      "text": "Money Managements",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-04T07:30:03.051Z"
     }
   ],
   "rewards": [
@@ -336,6 +343,6 @@
     }
   ],
   "totalPoints": 13950,
-  "nextTid": 47,
+  "nextTid": 48,
   "nextRid": 8
 }
