@@ -318,9 +318,17 @@
       "pointsRequired": 100000,
       "claimed": false,
       "icon": "fas fa-plane"
+    },
+    {
+      "id": 7,
+      "title": "কিওক্রাডং + বগালেক",
+      "description": "No description",
+      "pointsRequired": 50000,
+      "claimed": false,
+      "icon": "fas fa-spa"
     }
   ],
   "totalPoints": 13900,
   "nextTid": 46,
-  "nextRid": 7
+  "nextRid": 8
 }
