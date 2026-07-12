@@ -1,0 +1,20 @@
+{
+  "currentTripId": "5b7e7611-b333-4b84-b63e-ca96a1c1c684",
+  "trips": {
+    "5b7e7611-b333-4b84-b63e-ca96a1c1c684": {
+      "id": "5b7e7611-b333-4b84-b63e-ca96a1c1c684",
+      "name": "My Trip",
+      "startDate": "",
+      "endDate": "",
+      "currency": "USD",
+      "budgetLimit": "",
+      "routes": [],
+      "packing": [],
+      "itinerary": [],
+      "budget": [],
+      "documents": [],
+      "notes": [],
+      "destinations": []
+    }
+  }
+}
