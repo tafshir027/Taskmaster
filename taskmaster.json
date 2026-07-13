@@ -368,7 +368,7 @@
       "id": 56,
       "text": "promte tools",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-13T16:58:02.918Z"
     }
   ],
@@ -398,7 +398,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 14650,
+  "totalPoints": 14750,
   "nextTid": 57,
   "nextRid": 8
 }
