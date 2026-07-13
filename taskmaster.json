@@ -363,6 +363,13 @@
       "points": 200,
       "completed": true,
       "createdAt": "2026-07-12T09:35:45.048Z"
+    },
+    {
+      "id": 56,
+      "text": "promte tools",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-13T16:58:02.918Z"
     }
   ],
   "rewards": [
@@ -392,6 +399,6 @@
     }
   ],
   "totalPoints": 14650,
-  "nextTid": 56,
+  "nextTid": 57,
   "nextRid": 8
 }
