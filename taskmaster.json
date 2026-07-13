@@ -361,7 +361,7 @@
       "id": 55,
       "text": "Tour Plan Tools",
       "points": 200,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-12T09:35:45.048Z"
     }
   ],
@@ -391,7 +391,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 14450,
+  "totalPoints": 14650,
   "nextTid": 56,
   "nextRid": 8
 }
