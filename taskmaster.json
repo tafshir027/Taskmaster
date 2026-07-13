@@ -375,7 +375,7 @@
       "id": 57,
       "text": "password tools",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-13T17:52:30.872Z"
     }
   ],
@@ -405,7 +405,7 @@
       "icon": "fas fa-spa"
     }
   ],
-  "totalPoints": 14750,
+  "totalPoints": 14850,
   "nextTid": 58,
   "nextRid": 8
 }
