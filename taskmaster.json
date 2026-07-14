@@ -389,14 +389,6 @@
       "icon": "fas fa-umbrella-beach"
     },
     {
-      "id": 6,
-      "title": "Tour All Coutry",
-      "description": "No description",
-      "pointsRequired": 100000,
-      "claimed": false,
-      "icon": "fas fa-plane"
-    },
-    {
       "id": 7,
       "title": "Kolkata Hotel",
       "description": "7 USD",
