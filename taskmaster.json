@@ -398,11 +398,11 @@
     },
     {
       "id": 7,
-      "title": "কিওক্রাডং + বগালেক",
-      "description": "No description",
-      "pointsRequired": 50000,
+      "title": "Kolkata Hotel",
+      "description": "7 USD",
+      "pointsRequired": 30000,
       "claimed": false,
-      "icon": "fas fa-spa"
+      "icon": "fas fa-rocket"
     }
   ],
   "totalPoints": 14850,
