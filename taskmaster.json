@@ -398,6 +398,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-15T09:25:29.264Z"
+    },
+    {
+      "id": 62,
+      "text": "প্লেস ৩",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-07-15T09:52:41.233Z"
     }
   ],
   "rewards": [
@@ -419,6 +426,6 @@
     }
   ],
   "totalPoints": 15000,
-  "nextTid": 62,
+  "nextTid": 63,
   "nextRid": 8
 }
