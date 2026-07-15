@@ -445,7 +445,7 @@
       "id": 68,
       "text": "2 editing",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-15T14:50:43.533Z"
     }
   ],
@@ -467,7 +467,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15400,
+  "totalPoints": 15450,
   "nextTid": 69,
   "nextRid": 8
 }
