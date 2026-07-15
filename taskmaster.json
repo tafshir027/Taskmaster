@@ -403,7 +403,7 @@
       "id": 62,
       "text": "প্লেস ৩",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-15T09:52:41.233Z"
     }
   ],
@@ -425,7 +425,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15000,
+  "totalPoints": 15050,
   "nextTid": 63,
   "nextRid": 8
 }
