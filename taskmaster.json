@@ -377,6 +377,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-13T17:52:30.872Z"
+    },
+    {
+      "id": 58,
+      "text": "ট্রাভেল ব্লগ পেজ",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-07-15T08:20:29.003Z"
     }
   ],
   "rewards": [
@@ -398,6 +405,6 @@
     }
   ],
   "totalPoints": 14850,
-  "nextTid": 58,
+  "nextTid": 59,
   "nextRid": 8
 }
