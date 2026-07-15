@@ -438,7 +438,7 @@
       "id": 67,
       "text": "video 2",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-15T14:34:27.236Z"
     }
   ],
@@ -460,7 +460,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15300,
+  "totalPoints": 15400,
   "nextTid": 68,
   "nextRid": 8
 }
