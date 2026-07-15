@@ -391,6 +391,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-15T08:47:16.449Z"
+    },
+    {
+      "id": 60,
+      "text": "প্লেস ২",
+      "points": 10,
+      "completed": false,
+      "createdAt": "2026-07-15T09:25:14.955Z"
     }
   ],
   "rewards": [
@@ -412,6 +419,6 @@
     }
   ],
   "totalPoints": 14950,
-  "nextTid": 60,
+  "nextTid": 61,
   "nextRid": 8
 }
