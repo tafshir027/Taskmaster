@@ -417,7 +417,7 @@
       "id": 64,
       "text": "R presentation",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-15T13:26:28.700Z"
     }
   ],
@@ -439,7 +439,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15100,
+  "totalPoints": 15150,
   "nextTid": 65,
   "nextRid": 8
 }
