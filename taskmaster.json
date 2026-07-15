@@ -410,7 +410,7 @@
       "id": 63,
       "text": "place 4",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-15T09:52:59.522Z"
     }
   ],
@@ -432,7 +432,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15050,
+  "totalPoints": 15100,
   "nextTid": 64,
   "nextRid": 8
 }
