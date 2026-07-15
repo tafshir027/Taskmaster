@@ -412,6 +412,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-15T09:52:59.522Z"
+    },
+    {
+      "id": 64,
+      "text": "R presentation",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-07-15T13:26:28.700Z"
     }
   ],
   "rewards": [
@@ -433,6 +440,6 @@
     }
   ],
   "totalPoints": 15100,
-  "nextTid": 64,
+  "nextTid": 65,
   "nextRid": 8
 }
