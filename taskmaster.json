@@ -452,7 +452,7 @@
       "id": 70,
       "text": "R slide",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-15T15:21:21.496Z"
     }
   ],
@@ -474,7 +474,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15450,
+  "totalPoints": 15500,
   "nextTid": 71,
   "nextRid": 8
 }
