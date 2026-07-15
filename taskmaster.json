@@ -447,6 +447,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-15T14:50:43.533Z"
+    },
+    {
+      "id": 70,
+      "text": "R slide",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-07-15T15:21:21.496Z"
     }
   ],
   "rewards": [
@@ -468,6 +475,6 @@
     }
   ],
   "totalPoints": 15450,
-  "nextTid": 70,
+  "nextTid": 71,
   "nextRid": 8
 }
