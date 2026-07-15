@@ -382,7 +382,7 @@
       "id": 58,
       "text": "ট্রাভেল ব্লগ পেজ",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-15T08:20:29.003Z"
     }
   ],
@@ -404,7 +404,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 14850,
+  "totalPoints": 14900,
   "nextTid": 59,
   "nextRid": 8
 }
