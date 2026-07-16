@@ -447,6 +447,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T10:14:37.479Z"
+    },
+    {
+      "id": 76,
+      "text": "R Programming Cheatsheet",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T10:39:04.546Z"
     }
   ],
   "rewards": [
@@ -468,6 +475,6 @@
     }
   ],
   "totalPoints": 15900,
-  "nextTid": 76,
+  "nextTid": 77,
   "nextRid": 8
 }
