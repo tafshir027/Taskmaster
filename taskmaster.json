@@ -466,7 +466,7 @@
       "id": 72,
       "text": "update website",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T09:58:44.270Z"
     },
     {
@@ -502,7 +502,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15600,
+  "totalPoints": 15700,
   "nextTid": 75,
   "nextRid": 8
 }
