@@ -550,7 +550,7 @@
       "id": 90,
       "text": "Edit Menu Section",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T14:44:40.232Z"
     },
     {
@@ -579,7 +579,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 17400,
+  "totalPoints": 17500,
   "nextTid": 92,
   "nextRid": 8
 }
