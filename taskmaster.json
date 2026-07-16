@@ -501,7 +501,7 @@
       "id": 83,
       "text": "faq",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T12:08:19.912Z"
     },
     {
@@ -558,7 +558,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 16700,
+  "totalPoints": 16800,
   "nextTid": 89,
   "nextRid": 8
 }
