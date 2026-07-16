@@ -459,7 +459,7 @@
       "id": 71,
       "text": "Link Manager",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T08:56:52.847Z"
     }
   ],
@@ -481,7 +481,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15500,
+  "totalPoints": 15600,
   "nextTid": 72,
   "nextRid": 8
 }
