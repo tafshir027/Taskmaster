@@ -459,7 +459,7 @@
       "id": 77,
       "text": "R course outlines",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T10:41:09.083Z"
     },
     {
@@ -488,7 +488,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 16000,
+  "totalPoints": 16100,
   "nextTid": 79,
   "nextRid": 8
 }
