@@ -564,7 +564,7 @@
       "id": 92,
       "text": "edit footer",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T15:08:29.471Z"
     },
     {
@@ -600,7 +600,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 17700,
+  "totalPoints": 17800,
   "nextTid": 95,
   "nextRid": 8
 }
