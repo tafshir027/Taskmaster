@@ -557,7 +557,7 @@
       "id": 91,
       "text": "collect All Page URL",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T14:45:29.558Z"
     }
   ],
@@ -579,7 +579,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 17300,
+  "totalPoints": 17400,
   "nextTid": 92,
   "nextRid": 8
 }
