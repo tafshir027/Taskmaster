@@ -438,7 +438,7 @@
       "id": 74,
       "text": "create html website",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T10:06:13.354Z"
     },
     {
@@ -481,7 +481,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15900,
+  "totalPoints": 16000,
   "nextTid": 78,
   "nextRid": 8
 }
