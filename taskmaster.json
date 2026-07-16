@@ -578,7 +578,7 @@
       "id": 94,
       "text": "functional Newsletter",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T15:34:33.781Z"
     }
   ],
@@ -600,7 +600,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 17600,
+  "totalPoints": 17700,
   "nextTid": 95,
   "nextRid": 8
 }
