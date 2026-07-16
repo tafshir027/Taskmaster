@@ -454,6 +454,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-15T15:21:21.496Z"
+    },
+    {
+      "id": 71,
+      "text": "Link Manager",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T08:56:52.847Z"
     }
   ],
   "rewards": [
@@ -475,6 +482,6 @@
     }
   ],
   "totalPoints": 15500,
-  "nextTid": 71,
+  "nextTid": 72,
   "nextRid": 8
 }
