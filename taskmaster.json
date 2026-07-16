@@ -573,6 +573,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T15:21:28.537Z"
+    },
+    {
+      "id": 94,
+      "text": "functional Newsletter",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T15:34:33.781Z"
     }
   ],
   "rewards": [
@@ -594,6 +601,6 @@
     }
   ],
   "totalPoints": 17600,
-  "nextTid": 94,
+  "nextTid": 95,
   "nextRid": 8
 }
