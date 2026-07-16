@@ -587,6 +587,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T15:50:02.244Z"
+    },
+    {
+      "id": 96,
+      "text": "Terms and Condition",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T16:01:22.295Z"
     }
   ],
   "rewards": [
@@ -608,6 +615,6 @@
     }
   ],
   "totalPoints": 17900,
-  "nextTid": 96,
+  "nextTid": 97,
   "nextRid": 8
 }
