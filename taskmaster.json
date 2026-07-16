@@ -538,6 +538,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T13:14:25.080Z"
+    },
+    {
+      "id": 89,
+      "text": "footer faction",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T14:44:17.385Z"
     }
   ],
   "rewards": [
@@ -559,6 +566,6 @@
     }
   ],
   "totalPoints": 17200,
-  "nextTid": 89,
+  "nextTid": 90,
   "nextRid": 8
 }
