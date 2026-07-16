@@ -552,6 +552,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-16T14:44:40.232Z"
+    },
+    {
+      "id": 91,
+      "text": "collect All Page URL",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T14:45:29.558Z"
     }
   ],
   "rewards": [
@@ -573,6 +580,6 @@
     }
   ],
   "totalPoints": 17300,
-  "nextTid": 91,
+  "nextTid": 92,
   "nextRid": 8
 }
