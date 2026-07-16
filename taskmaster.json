@@ -571,7 +571,7 @@
       "id": 93,
       "text": "Create Pyplatoons Github",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T15:21:28.537Z"
     }
   ],
@@ -593,7 +593,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 17500,
+  "totalPoints": 17600,
   "nextTid": 94,
   "nextRid": 8
 }
