@@ -454,6 +454,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-16T10:39:04.546Z"
+    },
+    {
+      "id": 77,
+      "text": "R course outlines",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T10:41:09.083Z"
     }
   ],
   "rewards": [
@@ -475,6 +482,6 @@
     }
   ],
   "totalPoints": 15900,
-  "nextTid": 77,
+  "nextTid": 78,
   "nextRid": 8
 }
