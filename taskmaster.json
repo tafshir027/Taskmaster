@@ -475,6 +475,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-16T10:05:58.008Z"
+    },
+    {
+      "id": 74,
+      "text": "create html website",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T10:06:13.354Z"
     }
   ],
   "rewards": [
@@ -496,6 +503,6 @@
     }
   ],
   "totalPoints": 15600,
-  "nextTid": 74,
+  "nextTid": 75,
   "nextRid": 8
 }
