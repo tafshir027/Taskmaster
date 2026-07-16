@@ -517,6 +517,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-16T12:16:27.055Z"
+    },
+    {
+      "id": 86,
+      "text": "course",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T12:24:18.285Z"
     }
   ],
   "rewards": [
@@ -538,6 +545,6 @@
     }
   ],
   "totalPoints": 16200,
-  "nextTid": 86,
+  "nextTid": 87,
   "nextRid": 8
 }
