@@ -599,7 +599,7 @@
       "id": 97,
       "text": "Refund and Policy",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T16:11:02.740Z"
     }
   ],
@@ -621,7 +621,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 18000,
+  "totalPoints": 18100,
   "nextTid": 98,
   "nextRid": 8
 }
