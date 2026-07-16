@@ -594,6 +594,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T16:01:22.295Z"
+    },
+    {
+      "id": 97,
+      "text": "Refund and Policy",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T16:11:02.740Z"
     }
   ],
   "rewards": [
@@ -615,6 +622,6 @@
     }
   ],
   "totalPoints": 18000,
-  "nextTid": 97,
+  "nextTid": 98,
   "nextRid": 8
 }
