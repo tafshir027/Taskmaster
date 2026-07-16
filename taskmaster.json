@@ -522,7 +522,7 @@
       "id": 86,
       "text": "course",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T12:24:18.285Z"
     },
     {
@@ -558,7 +558,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 16400,
+  "totalPoints": 16500,
   "nextTid": 89,
   "nextRid": 8
 }
