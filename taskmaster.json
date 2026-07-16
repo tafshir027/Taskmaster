@@ -487,7 +487,7 @@
       "id": 75,
       "text": "update & Backup pyplatoons",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T10:14:37.479Z"
     }
   ],
@@ -509,7 +509,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15700,
+  "totalPoints": 15800,
   "nextTid": 76,
   "nextRid": 8
 }
