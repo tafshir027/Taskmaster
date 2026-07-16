@@ -22,13 +22,6 @@
       "createdAt": "2026-06-15T17:54:47.534Z"
     },
     {
-      "id": 4,
-      "text": "video",
-      "points": 200,
-      "completed": false,
-      "createdAt": "2026-06-16T09:46:02.120Z"
-    },
-    {
       "id": 5,
       "text": "tools 2",
       "points": 100,
