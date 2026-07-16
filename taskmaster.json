@@ -536,7 +536,7 @@
       "id": 88,
       "text": "update tutorlms",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T13:14:25.080Z"
     }
   ],
@@ -558,7 +558,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 16200,
+  "totalPoints": 16300,
   "nextTid": 89,
   "nextRid": 8
 }
