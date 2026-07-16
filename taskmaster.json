@@ -545,6 +545,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T14:44:17.385Z"
+    },
+    {
+      "id": 90,
+      "text": "Edit Menu Section",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T14:44:40.232Z"
     }
   ],
   "rewards": [
@@ -566,6 +573,6 @@
     }
   ],
   "totalPoints": 17300,
-  "nextTid": 90,
+  "nextTid": 91,
   "nextRid": 8
 }
