@@ -473,7 +473,7 @@
       "id": 73,
       "text": "design pyplatoons",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T10:05:58.008Z"
     },
     {
@@ -509,7 +509,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 15800,
+  "totalPoints": 15900,
   "nextTid": 76,
   "nextRid": 8
 }
