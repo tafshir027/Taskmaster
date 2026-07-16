@@ -475,6 +475,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-16T10:49:32.834Z"
+    },
+    {
+      "id": 80,
+      "text": "cover section",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T11:30:46.537Z"
     }
   ],
   "rewards": [
@@ -496,6 +503,6 @@
     }
   ],
   "totalPoints": 16200,
-  "nextTid": 80,
+  "nextTid": 81,
   "nextRid": 8
 }
