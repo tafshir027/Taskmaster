@@ -461,6 +461,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T08:56:52.847Z"
+    },
+    {
+      "id": 72,
+      "text": "update website",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T09:58:44.270Z"
     }
   ],
   "rewards": [
@@ -482,6 +489,6 @@
     }
   ],
   "totalPoints": 15600,
-  "nextTid": 72,
+  "nextTid": 73,
   "nextRid": 8
 }
