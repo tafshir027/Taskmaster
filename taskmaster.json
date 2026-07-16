@@ -580,6 +580,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T15:34:33.781Z"
+    },
+    {
+      "id": 95,
+      "text": "Privacy & Policy Page",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T15:50:02.244Z"
     }
   ],
   "rewards": [
@@ -601,6 +608,6 @@
     }
   ],
   "totalPoints": 17800,
-  "nextTid": 95,
+  "nextTid": 96,
   "nextRid": 8
 }
