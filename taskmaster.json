@@ -461,6 +461,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-16T10:41:09.083Z"
+    },
+    {
+      "id": 78,
+      "text": "R Course outline web tools",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T10:46:27.505Z"
     }
   ],
   "rewards": [
@@ -482,6 +489,6 @@
     }
   ],
   "totalPoints": 16000,
-  "nextTid": 78,
+  "nextTid": 79,
   "nextRid": 8
 }
