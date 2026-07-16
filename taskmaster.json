@@ -559,6 +559,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T14:45:29.558Z"
+    },
+    {
+      "id": 92,
+      "text": "edit footer",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T15:08:29.471Z"
     }
   ],
   "rewards": [
@@ -580,6 +587,6 @@
     }
   ],
   "totalPoints": 17500,
-  "nextTid": 92,
+  "nextTid": 93,
   "nextRid": 8
 }
