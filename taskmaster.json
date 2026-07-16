@@ -592,7 +592,7 @@
       "id": 96,
       "text": "Terms and Condition",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T16:01:22.295Z"
     }
   ],
@@ -614,7 +614,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 17900,
+  "totalPoints": 18000,
   "nextTid": 97,
   "nextRid": 8
 }
