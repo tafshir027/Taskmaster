@@ -482,6 +482,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-16T11:30:46.537Z"
+    },
+    {
+      "id": 81,
+      "text": "info section",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-16T11:52:09.798Z"
     }
   ],
   "rewards": [
@@ -503,6 +510,6 @@
     }
   ],
   "totalPoints": 16200,
-  "nextTid": 81,
+  "nextTid": 82,
   "nextRid": 8
 }
