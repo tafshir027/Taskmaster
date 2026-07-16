@@ -585,7 +585,7 @@
       "id": 95,
       "text": "Privacy & Policy Page",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T15:50:02.244Z"
     }
   ],
@@ -607,7 +607,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 17800,
+  "totalPoints": 17900,
   "nextTid": 96,
   "nextRid": 8
 }
