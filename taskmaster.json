@@ -606,7 +606,7 @@
       "id": 98,
       "text": "Content Task",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-17T05:41:59.474Z"
     }
   ],
@@ -628,7 +628,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 18100,
+  "totalPoints": 18200,
   "nextTid": 99,
   "nextRid": 8
 }
