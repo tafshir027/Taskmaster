@@ -615,6 +615,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-17T06:34:33.250Z"
+    },
+    {
+      "id": 100,
+      "text": "download vromon Gide",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-17T14:14:21.067Z"
     }
   ],
   "rewards": [
@@ -636,6 +643,6 @@
     }
   ],
   "totalPoints": 18400,
-  "nextTid": 100,
+  "nextTid": 101,
   "nextRid": 8
 }
