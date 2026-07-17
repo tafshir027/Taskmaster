@@ -601,6 +601,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-16T16:11:02.740Z"
+    },
+    {
+      "id": 98,
+      "text": "Content Task",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-17T05:41:59.474Z"
     }
   ],
   "rewards": [
@@ -622,6 +629,6 @@
     }
   ],
   "totalPoints": 18100,
-  "nextTid": 98,
+  "nextTid": 99,
   "nextRid": 8
 }
