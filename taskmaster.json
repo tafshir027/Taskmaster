@@ -452,7 +452,7 @@
       "id": 76,
       "text": "R Programming Cheatsheet",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-16T10:39:04.546Z"
     },
     {
@@ -635,7 +635,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 18300,
+  "totalPoints": 18400,
   "nextTid": 100,
   "nextRid": 8
 }
