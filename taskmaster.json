@@ -613,7 +613,7 @@
       "id": 99,
       "text": "github upload",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-17T06:34:33.250Z"
     }
   ],
@@ -635,7 +635,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 18200,
+  "totalPoints": 18300,
   "nextTid": 100,
   "nextRid": 8
 }
