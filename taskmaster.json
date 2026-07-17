@@ -622,6 +622,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-17T14:14:21.067Z"
+    },
+    {
+      "id": 101,
+      "text": "QR Scanner",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-17T14:23:39.650Z"
     }
   ],
   "rewards": [
@@ -643,6 +650,6 @@
     }
   ],
   "totalPoints": 18400,
-  "nextTid": 101,
+  "nextTid": 102,
   "nextRid": 8
 }
