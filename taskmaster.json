@@ -608,6 +608,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-17T05:41:59.474Z"
+    },
+    {
+      "id": 99,
+      "text": "github upload",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-17T06:34:33.250Z"
     }
   ],
   "rewards": [
@@ -629,6 +636,6 @@
     }
   ],
   "totalPoints": 18200,
-  "nextTid": 99,
+  "nextTid": 100,
   "nextRid": 8
 }
