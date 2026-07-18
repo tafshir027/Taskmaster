@@ -620,7 +620,7 @@
       "id": 100,
       "text": "download vromon Gide",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-17T14:14:21.067Z"
     },
     {
@@ -656,7 +656,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 18550,
+  "totalPoints": 18650,
   "nextTid": 103,
   "nextRid": 8
 }
