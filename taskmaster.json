@@ -662,7 +662,7 @@
       "id": 106,
       "text": "Link sever Pro",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-18T09:18:55.089Z"
     }
   ],
@@ -692,7 +692,7 @@
       "icon": "fas fa-crown"
     }
   ],
-  "totalPoints": 18950,
+  "totalPoints": 19050,
   "nextTid": 107,
   "nextRid": 9
 }
