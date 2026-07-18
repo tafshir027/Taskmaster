@@ -648,7 +648,7 @@
       "id": 104,
       "text": "Link Saver",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-18T07:46:25.760Z"
     }
   ],
@@ -670,7 +670,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 18750,
+  "totalPoints": 18850,
   "nextTid": 105,
   "nextRid": 8
 }
