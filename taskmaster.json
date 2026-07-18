@@ -641,7 +641,7 @@
       "id": 103,
       "text": "R apps",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-18T07:32:04.895Z"
     }
   ],
@@ -663,7 +663,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 18650,
+  "totalPoints": 18750,
   "nextTid": 104,
   "nextRid": 8
 }
