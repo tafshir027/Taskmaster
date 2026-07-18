@@ -689,9 +689,17 @@
       "pointsRequired": 200000,
       "claimed": false,
       "icon": "fas fa-crown"
+    },
+    {
+      "id": 9,
+      "title": "Valley of Flower Tickets",
+      "description": "8 USD",
+      "pointsRequired": 46000,
+      "claimed": false,
+      "icon": "fas fa-gift"
     }
   ],
   "totalPoints": 19150,
   "nextTid": 108,
-  "nextRid": 9
+  "nextRid": 10
 }
