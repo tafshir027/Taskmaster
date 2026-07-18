@@ -683,7 +683,7 @@
       "id": 109,
       "text": "Class 1",
       "points": 200,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-18T14:04:01.885Z"
     },
     {
@@ -720,7 +720,7 @@
       "icon": "fas fa-gift"
     }
   ],
-  "totalPoints": 19150,
+  "totalPoints": 19350,
   "nextTid": 111,
   "nextRid": 10
 }
