@@ -627,7 +627,7 @@
       "id": 101,
       "text": "QR Scanner",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-17T14:23:39.650Z"
     },
     {
@@ -656,7 +656,7 @@
       "icon": "fas fa-rocket"
     }
   ],
-  "totalPoints": 18450,
+  "totalPoints": 18550,
   "nextTid": 103,
   "nextRid": 8
 }
