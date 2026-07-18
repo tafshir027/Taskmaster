@@ -676,7 +676,7 @@
       "id": 108,
       "text": "Class Presntation",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-18T14:03:45.884Z"
     },
     {
@@ -720,7 +720,7 @@
       "icon": "fas fa-gift"
     }
   ],
-  "totalPoints": 19550,
+  "totalPoints": 19650,
   "nextTid": 111,
   "nextRid": 10
 }
