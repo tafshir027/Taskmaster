@@ -650,6 +650,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-18T07:46:25.760Z"
+    },
+    {
+      "id": 105,
+      "text": "R List Presntation",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-18T09:14:38.391Z"
     }
   ],
   "rewards": [
@@ -679,6 +686,6 @@
     }
   ],
   "totalPoints": 18850,
-  "nextTid": 105,
+  "nextTid": 106,
   "nextRid": 9
 }
