@@ -671,6 +671,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-18T10:35:38.299Z"
+    },
+    {
+      "id": 108,
+      "text": "Class Presntation",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-18T14:03:45.884Z"
     }
   ],
   "rewards": [
@@ -700,6 +707,6 @@
     }
   ],
   "totalPoints": 19150,
-  "nextTid": 108,
+  "nextTid": 109,
   "nextRid": 10
 }
