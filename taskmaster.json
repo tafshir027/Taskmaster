@@ -629,6 +629,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-17T14:23:39.650Z"
+    },
+    {
+      "id": 102,
+      "text": "copy text",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-07-18T07:07:52.476Z"
     }
   ],
   "rewards": [
@@ -650,6 +657,6 @@
     }
   ],
   "totalPoints": 18400,
-  "nextTid": 102,
+  "nextTid": 103,
   "nextRid": 8
 }
