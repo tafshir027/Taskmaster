@@ -668,9 +668,17 @@
       "pointsRequired": 30000,
       "claimed": false,
       "icon": "fas fa-rocket"
+    },
+    {
+      "id": 8,
+      "title": "Valley of Flowers",
+      "description": "100 USD",
+      "pointsRequired": 200000,
+      "claimed": false,
+      "icon": "fas fa-crown"
     }
   ],
   "totalPoints": 18850,
   "nextTid": 105,
-  "nextRid": 8
+  "nextRid": 9
 }
