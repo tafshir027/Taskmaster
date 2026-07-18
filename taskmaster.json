@@ -655,7 +655,7 @@
       "id": 105,
       "text": "R List Presntation",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-18T09:14:38.391Z"
     },
     {
@@ -692,7 +692,7 @@
       "icon": "fas fa-crown"
     }
   ],
-  "totalPoints": 18850,
+  "totalPoints": 18950,
   "nextTid": 107,
   "nextRid": 9
 }
