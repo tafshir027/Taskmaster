@@ -858,7 +858,7 @@
       "id": 134,
       "text": "Apply Family Functions",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T17:59:13.788Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 21950,
+  "totalPoints": 22050,
   "nextTid": 142,
   "nextRid": 11
 }
