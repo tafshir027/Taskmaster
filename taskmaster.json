@@ -909,6 +909,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-19T18:30:57.618Z"
+    },
+    {
+      "id": 142,
+      "text": "Link Page",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T18:38:34.061Z"
     }
   ],
   "rewards": [
@@ -946,6 +953,6 @@
     }
   ],
   "totalPoints": 22750,
-  "nextTid": 142,
+  "nextTid": 143,
   "nextRid": 11
 }
