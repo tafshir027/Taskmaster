@@ -804,6 +804,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T17:04:07.390Z"
+    },
+    {
+      "id": 127,
+      "text": "Scope & Environment",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T17:21:47.665Z"
     }
   ],
   "rewards": [
@@ -841,6 +848,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 127,
+  "nextTid": 128,
   "nextRid": 11
 }
