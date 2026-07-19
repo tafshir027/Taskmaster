@@ -769,6 +769,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T16:14:25.338Z"
+    },
+    {
+      "id": 122,
+      "text": "Factors",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T16:29:52.721Z"
     }
   ],
   "rewards": [
@@ -806,6 +813,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 122,
+  "nextTid": 123,
   "nextRid": 11
 }
