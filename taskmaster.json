@@ -725,9 +725,17 @@
       "pointsRequired": 46000,
       "claimed": false,
       "icon": "fas fa-gift"
+    },
+    {
+      "id": 10,
+      "title": "Hamta Pass",
+      "description": "5 Days 4 Night (100USD)",
+      "pointsRequired": 400000,
+      "claimed": false,
+      "icon": "fas fa-umbrella-beach"
     }
   ],
   "totalPoints": 19750,
   "nextTid": 112,
-  "nextRid": 10
+  "nextRid": 11
 }
