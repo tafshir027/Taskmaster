@@ -893,7 +893,7 @@
       "id": 139,
       "text": "Missing Values",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T18:22:20.129Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22450,
+  "totalPoints": 22550,
   "nextTid": 142,
   "nextRid": 11
 }
