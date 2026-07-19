@@ -886,7 +886,7 @@
       "id": 138,
       "text": "R Fundamentals",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T18:15:04.116Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22350,
+  "totalPoints": 22450,
   "nextTid": 142,
   "nextRid": 11
 }
