@@ -762,6 +762,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T16:10:01.788Z"
+    },
+    {
+      "id": 121,
+      "text": "Type Conversion",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T16:14:25.338Z"
     }
   ],
   "rewards": [
@@ -799,6 +806,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 121,
+  "nextTid": 122,
   "nextRid": 11
 }
