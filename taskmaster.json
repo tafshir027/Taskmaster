@@ -832,6 +832,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T17:46:24.575Z"
+    },
+    {
+      "id": 131,
+      "text": "Data Visualization (Base R)",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T17:47:34.726Z"
     }
   ],
   "rewards": [
@@ -869,6 +876,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 131,
+  "nextTid": 132,
   "nextRid": 11
 }
