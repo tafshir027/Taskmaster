@@ -706,6 +706,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-19T09:16:19.086Z"
+    },
+    {
+      "id": 113,
+      "text": "R List",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T14:51:40.231Z"
     }
   ],
   "rewards": [
@@ -743,6 +750,6 @@
     }
   ],
   "totalPoints": 19850,
-  "nextTid": 113,
+  "nextTid": 114,
   "nextRid": 11
 }
