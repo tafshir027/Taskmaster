@@ -900,7 +900,7 @@
       "id": 140,
       "text": "Final Capstone",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T18:30:47.405Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22550,
+  "totalPoints": 22650,
   "nextTid": 142,
   "nextRid": 11
 }
