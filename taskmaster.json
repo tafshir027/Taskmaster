@@ -760,7 +760,7 @@
       "id": 120,
       "text": "Loops",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T16:10:01.788Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 20550,
+  "totalPoints": 20650,
   "nextTid": 142,
   "nextRid": 11
 }
