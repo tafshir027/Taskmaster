@@ -697,7 +697,7 @@
       "id": 111,
       "text": "indian turist spot tools",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T08:06:21.433Z"
     }
   ],
@@ -727,7 +727,7 @@
       "icon": "fas fa-gift"
     }
   ],
-  "totalPoints": 19650,
+  "totalPoints": 19750,
   "nextTid": 112,
   "nextRid": 10
 }
