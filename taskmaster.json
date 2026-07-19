@@ -872,7 +872,7 @@
       "id": 136,
       "text": "Error Handling & Debugging",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T18:06:33.064Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22150,
+  "totalPoints": 22250,
   "nextTid": 142,
   "nextRid": 11
 }
