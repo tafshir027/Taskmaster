@@ -734,6 +734,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T15:17:43.674Z"
+    },
+    {
+      "id": 117,
+      "text": "Matrices",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T15:21:41.079Z"
     }
   ],
   "rewards": [
@@ -771,6 +778,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 117,
+  "nextTid": 118,
   "nextRid": 11
 }
