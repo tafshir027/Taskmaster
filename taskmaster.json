@@ -816,7 +816,7 @@
       "id": 128,
       "text": "String Handling",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T17:35:28.798Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 21350,
+  "totalPoints": 21450,
   "nextTid": 142,
   "nextRid": 11
 }
