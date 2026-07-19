@@ -767,14 +767,14 @@
       "id": 121,
       "text": "Type Conversion",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T16:14:25.338Z"
     },
     {
       "id": 122,
       "text": "Factors",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T16:29:52.721Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 20650,
+  "totalPoints": 20850,
   "nextTid": 142,
   "nextRid": 11
 }
