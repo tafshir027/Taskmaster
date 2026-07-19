@@ -839,6 +839,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T17:47:34.726Z"
+    },
+    {
+      "id": 132,
+      "text": "Data Visualization (ggplot2)",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T17:51:38.779Z"
     }
   ],
   "rewards": [
@@ -876,6 +883,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 132,
+  "nextTid": 133,
   "nextRid": 11
 }
