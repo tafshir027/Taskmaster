@@ -853,6 +853,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T17:55:16.516Z"
+    },
+    {
+      "id": 134,
+      "text": "Apply Family Functions",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T17:59:13.788Z"
     }
   ],
   "rewards": [
@@ -890,6 +897,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 134,
+  "nextTid": 135,
   "nextRid": 11
 }
