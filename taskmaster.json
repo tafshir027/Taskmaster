@@ -881,6 +881,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T18:10:03.818Z"
+    },
+    {
+      "id": 138,
+      "text": "R Fundamentals",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T18:15:04.116Z"
     }
   ],
   "rewards": [
@@ -918,6 +925,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 138,
+  "nextTid": 139,
   "nextRid": 11
 }
