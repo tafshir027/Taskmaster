@@ -713,6 +713,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-19T14:51:40.231Z"
+    },
+    {
+      "id": 114,
+      "text": "R Vectors",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T14:51:58.986Z"
     }
   ],
   "rewards": [
@@ -750,6 +757,6 @@
     }
   ],
   "totalPoints": 19950,
-  "nextTid": 114,
+  "nextTid": 115,
   "nextRid": 11
 }
