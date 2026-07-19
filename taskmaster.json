@@ -809,7 +809,7 @@
       "id": 127,
       "text": "Scope & Environment",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T17:21:47.665Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 21250,
+  "totalPoints": 21350,
   "nextTid": 142,
   "nextRid": 11
 }
