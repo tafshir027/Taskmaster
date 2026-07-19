@@ -879,7 +879,7 @@
       "id": 137,
       "text": "Introduction to R Programming",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T18:10:03.818Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22250,
+  "totalPoints": 22350,
   "nextTid": 142,
   "nextRid": 11
 }
