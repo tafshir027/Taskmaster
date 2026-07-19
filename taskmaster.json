@@ -704,7 +704,7 @@
       "id": 112,
       "text": "R presentation Homepage Design",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T09:16:19.086Z"
     }
   ],
@@ -742,7 +742,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 19750,
+  "totalPoints": 19850,
   "nextTid": 113,
   "nextRid": 11
 }
