@@ -865,7 +865,7 @@
       "id": 135,
       "text": "Functional Programming",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T18:02:25.789Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22050,
+  "totalPoints": 22150,
   "nextTid": 142,
   "nextRid": 11
 }
