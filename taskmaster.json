@@ -874,6 +874,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T18:06:33.064Z"
+    },
+    {
+      "id": 137,
+      "text": "Introduction to R Programming",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T18:10:03.818Z"
     }
   ],
   "rewards": [
@@ -911,6 +918,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 137,
+  "nextTid": 138,
   "nextRid": 11
 }
