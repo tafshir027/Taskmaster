@@ -837,7 +837,7 @@
       "id": 131,
       "text": "Data Visualization (Base R)",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T17:47:34.726Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 21650,
+  "totalPoints": 21750,
   "nextTid": 142,
   "nextRid": 11
 }
