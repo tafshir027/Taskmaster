@@ -727,6 +727,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T15:12:10.952Z"
+    },
+    {
+      "id": 116,
+      "text": "Arrays",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-19T15:17:43.674Z"
     }
   ],
   "rewards": [
@@ -764,6 +771,6 @@
     }
   ],
   "totalPoints": 20050,
-  "nextTid": 116,
+  "nextTid": 117,
   "nextRid": 11
 }
