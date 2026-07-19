@@ -844,7 +844,7 @@
       "id": 132,
       "text": "Data Visualization (ggplot2)",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T17:51:38.779Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 21750,
+  "totalPoints": 21850,
   "nextTid": 142,
   "nextRid": 11
 }
