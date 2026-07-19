@@ -907,7 +907,7 @@
       "id": 141,
       "text": "Project Development",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T18:30:57.618Z"
     }
   ],
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22650,
+  "totalPoints": 22750,
   "nextTid": 142,
   "nextRid": 11
 }
