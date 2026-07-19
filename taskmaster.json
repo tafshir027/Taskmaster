@@ -830,7 +830,7 @@
       "id": 130,
       "text": "Data Manipulation",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T17:46:24.575Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 21550,
+  "totalPoints": 21650,
   "nextTid": 142,
   "nextRid": 11
 }
