@@ -718,7 +718,7 @@
       "id": 114,
       "text": "R Vectors",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T14:51:58.986Z"
     }
   ],
@@ -756,7 +756,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 19950,
+  "totalPoints": 20050,
   "nextTid": 115,
   "nextRid": 11
 }
