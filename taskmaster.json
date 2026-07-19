@@ -802,7 +802,7 @@
       "id": 126,
       "text": "Packages",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T17:04:07.390Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 21150,
+  "totalPoints": 21250,
   "nextTid": 142,
   "nextRid": 11
 }
