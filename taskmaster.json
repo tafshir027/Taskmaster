@@ -711,7 +711,7 @@
       "id": 113,
       "text": "R List",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T14:51:40.231Z"
     }
   ],
@@ -749,7 +749,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 19850,
+  "totalPoints": 19950,
   "nextTid": 114,
   "nextRid": 11
 }
