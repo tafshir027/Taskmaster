@@ -739,14 +739,14 @@
       "id": 117,
       "text": "Matrices",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T15:21:41.079Z"
     },
     {
       "id": 118,
       "text": "Control Statements",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-19T15:39:50.936Z"
     },
     {
@@ -945,7 +945,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 20250,
+  "totalPoints": 20450,
   "nextTid": 142,
   "nextRid": 11
 }
