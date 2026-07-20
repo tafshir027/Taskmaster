@@ -1007,6 +1007,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-20T14:16:09.709Z"
+    },
+    {
+      "id": 156,
+      "text": "ready image",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-20T14:17:28.090Z"
     }
   ],
   "rewards": [
@@ -1044,6 +1051,6 @@
     }
   ],
   "totalPoints": 23860,
-  "nextTid": 156,
+  "nextTid": 157,
   "nextRid": 11
 }
