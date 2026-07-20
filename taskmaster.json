@@ -951,6 +951,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-20T12:46:50.167Z"
+    },
+    {
+      "id": 148,
+      "text": "collect footage 4",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-20T12:53:26.815Z"
     }
   ],
   "rewards": [
@@ -988,6 +995,6 @@
     }
   ],
   "totalPoints": 23250,
-  "nextTid": 148,
+  "nextTid": 149,
   "nextRid": 11
 }
