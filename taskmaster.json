@@ -1047,7 +1047,7 @@
       "id": 161,
       "text": "sound 8-10",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-20T18:19:10.430Z"
     }
   ],
@@ -1085,7 +1085,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 24460,
+  "totalPoints": 24560,
   "nextTid": 162,
   "nextRid": 11
 }
