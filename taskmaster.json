@@ -986,6 +986,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-20T13:12:02.847Z"
+    },
+    {
+      "id": 153,
+      "text": "ads banner",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-20T13:33:37.745Z"
     }
   ],
   "rewards": [
@@ -1023,6 +1030,6 @@
     }
   ],
   "totalPoints": 23660,
-  "nextTid": 153,
+  "nextTid": 154,
   "nextRid": 11
 }
