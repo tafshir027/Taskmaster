@@ -935,7 +935,7 @@
       "id": 145,
       "text": "collect footage 1",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-20T12:42:42.936Z"
     }
   ],
@@ -973,7 +973,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22950,
+  "totalPoints": 23050,
   "nextTid": 146,
   "nextRid": 11
 }
