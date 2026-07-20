@@ -921,7 +921,7 @@
       "id": 143,
       "text": "কিভাবে যাবেন ইন্ট্রো",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-20T10:00:20.285Z"
     },
     {
@@ -973,7 +973,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22850,
+  "totalPoints": 22950,
   "nextTid": 146,
   "nextRid": 11
 }
