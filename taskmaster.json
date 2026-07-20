@@ -1005,7 +1005,7 @@
       "id": 155,
       "text": "facebook ads",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-20T14:16:09.709Z"
     },
     {
@@ -1050,7 +1050,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 23960,
+  "totalPoints": 24060,
   "nextTid": 157,
   "nextRid": 11
 }
