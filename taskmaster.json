@@ -963,7 +963,7 @@
       "id": 149,
       "text": "footage 5",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-20T12:58:28.030Z"
     }
   ],
@@ -1001,7 +1001,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 23350,
+  "totalPoints": 23450,
   "nextTid": 150,
   "nextRid": 11
 }
