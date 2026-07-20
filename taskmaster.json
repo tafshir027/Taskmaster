@@ -916,6 +916,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-19T18:38:34.061Z"
+    },
+    {
+      "id": 143,
+      "text": "কিভাবে যাবেন ইন্ট্রো",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-20T10:00:20.285Z"
     }
   ],
   "rewards": [
@@ -953,6 +960,6 @@
     }
   ],
   "totalPoints": 22750,
-  "nextTid": 143,
+  "nextTid": 144,
   "nextRid": 11
 }
