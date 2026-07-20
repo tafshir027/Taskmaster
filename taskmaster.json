@@ -1049,6 +1049,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-20T18:19:10.430Z"
+    },
+    {
+      "id": 162,
+      "text": "sound 10-12",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-20T18:25:18.811Z"
     }
   ],
   "rewards": [
@@ -1086,6 +1093,6 @@
     }
   ],
   "totalPoints": 24560,
-  "nextTid": 162,
+  "nextTid": 163,
   "nextRid": 11
 }
