@@ -991,7 +991,7 @@
       "id": 153,
       "text": "ads banner",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-20T13:33:37.745Z"
     }
   ],
@@ -1029,7 +1029,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 23660,
+  "totalPoints": 23760,
   "nextTid": 154,
   "nextRid": 11
 }
