@@ -928,7 +928,7 @@
       "id": 144,
       "text": "lossless Video tools",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-20T11:59:01.326Z"
     }
   ],
@@ -966,7 +966,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 22750,
+  "totalPoints": 22850,
   "nextTid": 145,
   "nextRid": 11
 }
