@@ -979,6 +979,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-20T13:08:44.438Z"
+    },
+    {
+      "id": 152,
+      "text": "footage 8",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-20T13:12:02.847Z"
     }
   ],
   "rewards": [
@@ -1016,6 +1023,6 @@
     }
   ],
   "totalPoints": 23560,
-  "nextTid": 152,
+  "nextTid": 153,
   "nextRid": 11
 }
