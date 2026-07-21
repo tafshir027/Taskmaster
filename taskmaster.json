@@ -1091,6 +1091,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-21T11:04:05.758Z"
+    },
+    {
+      "id": 168,
+      "text": "extend",
+      "points": 1000,
+      "completed": false,
+      "createdAt": "2026-07-21T11:05:01.781Z"
     }
   ],
   "rewards": [
@@ -1128,6 +1135,6 @@
     }
   ],
   "totalPoints": 24960,
-  "nextTid": 168,
+  "nextTid": 169,
   "nextRid": 11
 }
