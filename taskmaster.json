@@ -1068,7 +1068,7 @@
       "id": 164,
       "text": "new wp group",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-21T06:49:45.092Z"
     },
     {
@@ -1113,7 +1113,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 24860,
+  "totalPoints": 24960,
   "nextTid": 166,
   "nextRid": 11
 }
