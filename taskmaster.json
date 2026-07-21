@@ -1063,6 +1063,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-20T18:42:05.012Z"
+    },
+    {
+      "id": 164,
+      "text": "new wp group",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-21T06:49:45.092Z"
     }
   ],
   "rewards": [
@@ -1100,6 +1107,6 @@
     }
   ],
   "totalPoints": 24760,
-  "nextTid": 164,
+  "nextTid": 165,
   "nextRid": 11
 }
