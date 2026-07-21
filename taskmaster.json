@@ -1070,6 +1070,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-21T06:49:45.092Z"
+    },
+    {
+      "id": 165,
+      "text": "update wp website",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-21T06:54:18.650Z"
     }
   ],
   "rewards": [
@@ -1107,6 +1114,6 @@
     }
   ],
   "totalPoints": 24760,
-  "nextTid": 165,
+  "nextTid": 166,
   "nextRid": 11
 }
