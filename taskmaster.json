@@ -1119,6 +1119,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-22T09:36:29.389Z"
+    },
+    {
+      "id": 172,
+      "text": "footage",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-22T09:40:17.564Z"
     }
   ],
   "rewards": [
@@ -1156,6 +1163,6 @@
     }
   ],
   "totalPoints": 26460,
-  "nextTid": 172,
+  "nextTid": 173,
   "nextRid": 11
 }
