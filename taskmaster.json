@@ -1154,6 +1154,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-22T12:54:04.634Z"
+    },
+    {
+      "id": 177,
+      "text": "music and voice",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-22T12:54:32.459Z"
     }
   ],
   "rewards": [
@@ -1191,6 +1198,6 @@
     }
   ],
   "totalPoints": 27210,
-  "nextTid": 177,
+  "nextTid": 178,
   "nextRid": 11
 }
