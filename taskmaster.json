@@ -1161,6 +1161,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-22T12:54:32.459Z"
+    },
+    {
+      "id": 178,
+      "text": "2 minutes",
+      "points": 400,
+      "completed": false,
+      "createdAt": "2026-07-22T13:42:05.339Z"
     }
   ],
   "rewards": [
@@ -1198,6 +1205,6 @@
     }
   ],
   "totalPoints": 27310,
-  "nextTid": 178,
+  "nextTid": 179,
   "nextRid": 11
 }
