@@ -1112,6 +1112,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-22T09:46:22.535Z"
+    },
+    {
+      "id": 171,
+      "text": "google map",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-22T10:09:01.742Z"
     }
   ],
   "rewards": [
@@ -1149,6 +1156,6 @@
     }
   ],
   "totalPoints": 26310,
-  "nextTid": 171,
+  "nextTid": 172,
   "nextRid": 11
 }
