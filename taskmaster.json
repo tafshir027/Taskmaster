@@ -1238,6 +1238,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-07-23T12:35:00.924Z"
+    },
+    {
+      "id": 189,
+      "text": "Free 27 GB",
+      "points": 300,
+      "completed": false,
+      "createdAt": "2026-07-23T12:35:55.312Z"
     }
   ],
   "rewards": [
@@ -1275,6 +1282,6 @@
     }
   ],
   "totalPoints": 28410,
-  "nextTid": 189,
+  "nextTid": 190,
   "nextRid": 11
 }
