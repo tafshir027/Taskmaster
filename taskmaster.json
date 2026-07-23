@@ -1180,7 +1180,7 @@
       "id": 180,
       "text": "clip 1",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-23T10:06:27.545Z"
     }
   ],
@@ -1218,7 +1218,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 27710,
+  "totalPoints": 27810,
   "nextTid": 181,
   "nextRid": 11
 }
