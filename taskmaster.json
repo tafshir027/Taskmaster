@@ -1320,7 +1320,7 @@
       "id": 200,
       "text": "live presentation",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-24T14:47:19.217Z"
     }
   ],
@@ -1358,7 +1358,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 29610,
+  "totalPoints": 29710,
   "nextTid": 201,
   "nextRid": 11
 }
