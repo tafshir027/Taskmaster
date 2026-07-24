@@ -1483,6 +1483,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-24T17:18:04.304Z"
+    },
+    {
+      "id": 224,
+      "text": "slide",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-07-24T17:21:43.903Z"
     }
   ],
   "rewards": [
@@ -1520,6 +1527,6 @@
     }
   ],
   "totalPoints": 31110,
-  "nextTid": 224,
+  "nextTid": 225,
   "nextRid": 11
 }
