@@ -1315,6 +1315,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-24T08:34:16.589Z"
+    },
+    {
+      "id": 200,
+      "text": "live presentation",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-24T14:47:19.217Z"
     }
   ],
   "rewards": [
@@ -1352,6 +1359,6 @@
     }
   ],
   "totalPoints": 29610,
-  "nextTid": 200,
+  "nextTid": 201,
   "nextRid": 11
 }
