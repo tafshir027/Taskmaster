@@ -1336,6 +1336,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-24T15:06:20.844Z"
+    },
+    {
+      "id": 203,
+      "text": "upload 1gb",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-24T15:12:29.637Z"
     }
   ],
   "rewards": [
@@ -1373,6 +1380,6 @@
     }
   ],
   "totalPoints": 29910,
-  "nextTid": 203,
+  "nextTid": 204,
   "nextRid": 11
 }
