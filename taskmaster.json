@@ -1301,6 +1301,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-24T08:02:46.627Z"
+    },
+    {
+      "id": 198,
+      "text": "clip 2",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-24T08:20:54.563Z"
     }
   ],
   "rewards": [
@@ -1338,6 +1345,6 @@
     }
   ],
   "totalPoints": 29410,
-  "nextTid": 198,
+  "nextTid": 199,
   "nextRid": 11
 }
