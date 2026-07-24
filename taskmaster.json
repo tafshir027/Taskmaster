@@ -1271,7 +1271,7 @@
       "id": 193,
       "text": "upload 1GB",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-24T07:13:01.855Z"
     },
     {
@@ -1316,7 +1316,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 28910,
+  "totalPoints": 29010,
   "nextTid": 195,
   "nextRid": 11
 }
