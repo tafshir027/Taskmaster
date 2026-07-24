@@ -1453,7 +1453,7 @@
       "id": 219,
       "text": "file handling",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-24T16:56:49.867Z"
     }
   ],
@@ -1491,7 +1491,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 30810,
+  "totalPoints": 30910,
   "nextTid": 220,
   "nextRid": 11
 }
