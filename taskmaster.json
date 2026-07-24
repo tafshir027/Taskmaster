@@ -1278,7 +1278,7 @@
       "id": 194,
       "text": "Footage Color 1",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-24T07:13:50.415Z"
     }
   ],
@@ -1316,7 +1316,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 28810,
+  "totalPoints": 28910,
   "nextTid": 195,
   "nextRid": 11
 }
