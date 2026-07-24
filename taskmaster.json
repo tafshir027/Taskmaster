@@ -1259,6 +1259,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-24T07:00:22.704Z"
+    },
+    {
+      "id": 192,
+      "text": "Upload 1",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-24T07:06:33.102Z"
     }
   ],
   "rewards": [
@@ -1296,6 +1303,6 @@
     }
   ],
   "totalPoints": 28710,
-  "nextTid": 192,
+  "nextTid": 193,
   "nextRid": 11
 }
