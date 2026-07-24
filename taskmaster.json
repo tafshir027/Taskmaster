@@ -1264,7 +1264,7 @@
       "id": 192,
       "text": "Upload 1",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-24T07:06:33.102Z"
     }
   ],
@@ -1302,7 +1302,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 28710,
+  "totalPoints": 28810,
   "nextTid": 193,
   "nextRid": 11
 }
