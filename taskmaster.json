@@ -1351,7 +1351,7 @@
       "title": "Kolkata Hotel",
       "description": "7 USD",
       "pointsRequired": 30000,
-      "claimed": false,
+      "claimed": true,
       "icon": "fas fa-rocket"
     },
     {
