@@ -1511,6 +1511,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-25T08:14:00.617Z"
+    },
+    {
+      "id": 228,
+      "text": "SQL Presentation",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-25T15:42:16.454Z"
     }
   ],
   "rewards": [
@@ -1548,6 +1555,6 @@
     }
   ],
   "totalPoints": 31510,
-  "nextTid": 228,
+  "nextTid": 229,
   "nextRid": 11
 }
