@@ -1516,7 +1516,7 @@
       "id": 228,
       "text": "SQL Presentation",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-25T15:42:16.454Z"
     }
   ],
@@ -1554,7 +1554,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 31510,
+  "totalPoints": 31610,
   "nextTid": 229,
   "nextRid": 11
 }
