@@ -1544,7 +1544,7 @@
       "id": 232,
       "text": "vectors",
       "points": 10,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-26T07:59:56.902Z"
     },
     {
@@ -1603,7 +1603,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 32110,
+  "totalPoints": 32120,
   "nextTid": 236,
   "nextRid": 11
 }
