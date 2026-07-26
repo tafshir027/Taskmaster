@@ -1523,7 +1523,7 @@
       "id": 229,
       "text": "job book collection",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-26T07:13:51.739Z"
     },
     {
@@ -1603,7 +1603,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 31960,
+  "totalPoints": 32060,
   "nextTid": 236,
   "nextRid": 11
 }
