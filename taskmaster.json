@@ -1595,6 +1595,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-26T09:33:18.670Z"
+    },
+    {
+      "id": 240,
+      "text": "R problems",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-26T09:52:56.287Z"
     }
   ],
   "rewards": [
@@ -1640,6 +1647,6 @@
     }
   ],
   "totalPoints": 32820,
-  "nextTid": 240,
+  "nextTid": 241,
   "nextRid": 12
 }
