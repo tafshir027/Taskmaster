@@ -1117,7 +1117,7 @@
       "id": 171,
       "text": "google map",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-22T10:09:01.742Z"
     },
     {
@@ -1660,7 +1660,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 33120,
+  "totalPoints": 33220,
   "nextTid": 243,
   "nextRid": 12
 }
