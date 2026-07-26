@@ -1600,7 +1600,7 @@
       "id": 240,
       "text": "R problems",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-26T09:52:56.287Z"
     }
   ],
@@ -1646,7 +1646,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 32820,
+  "totalPoints": 32920,
   "nextTid": 241,
   "nextRid": 12
 }
