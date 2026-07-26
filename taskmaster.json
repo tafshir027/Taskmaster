@@ -1615,9 +1615,17 @@
       "pointsRequired": 400000,
       "claimed": false,
       "icon": "fas fa-umbrella-beach"
+    },
+    {
+      "id": 11,
+      "title": "Hotel Day 1",
+      "description": "No description",
+      "pointsRequired": 56000,
+      "claimed": false,
+      "icon": "fas fa-coffee"
     }
   ],
   "totalPoints": 32620,
   "nextTid": 238,
-  "nextRid": 11
+  "nextRid": 12
 }
