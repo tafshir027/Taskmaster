@@ -1593,7 +1593,7 @@
       "id": 239,
       "text": "R course Outlines",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-26T09:33:18.670Z"
     }
   ],
@@ -1639,7 +1639,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 32720,
+  "totalPoints": 32820,
   "nextTid": 240,
   "nextRid": 12
 }
