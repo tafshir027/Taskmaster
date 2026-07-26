@@ -1532,6 +1532,13 @@
       "points": 200,
       "completed": false,
       "createdAt": "2026-07-26T07:41:59.158Z"
+    },
+    {
+      "id": 231,
+      "text": "Arithmetics operators",
+      "points": 50,
+      "completed": false,
+      "createdAt": "2026-07-26T07:59:45.631Z"
     }
   ],
   "rewards": [
@@ -1569,6 +1576,6 @@
     }
   ],
   "totalPoints": 31610,
-  "nextTid": 231,
+  "nextTid": 232,
   "nextRid": 11
 }
