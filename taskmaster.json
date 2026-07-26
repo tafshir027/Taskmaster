@@ -1581,6 +1581,13 @@
       "points": 50,
       "completed": true,
       "createdAt": "2026-07-26T09:12:26.237Z"
+    },
+    {
+      "id": 238,
+      "text": "R Course with Excel",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-26T09:26:49.439Z"
     }
   ],
   "rewards": [
@@ -1626,6 +1633,6 @@
     }
   ],
   "totalPoints": 32620,
-  "nextTid": 238,
+  "nextTid": 239,
   "nextRid": 12
 }
