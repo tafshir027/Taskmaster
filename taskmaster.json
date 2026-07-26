@@ -1607,7 +1607,7 @@
       "id": 241,
       "text": "Complete R Setup Guide",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-26T10:21:51.225Z"
     }
   ],
@@ -1653,7 +1653,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 32920,
+  "totalPoints": 33020,
   "nextTid": 242,
   "nextRid": 12
 }
