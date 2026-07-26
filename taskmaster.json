@@ -1586,7 +1586,7 @@
       "id": 238,
       "text": "R Course with Excel",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-26T09:26:49.439Z"
     },
     {
@@ -1639,7 +1639,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 32620,
+  "totalPoints": 32720,
   "nextTid": 240,
   "nextRid": 12
 }
