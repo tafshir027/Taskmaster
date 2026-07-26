@@ -1537,7 +1537,7 @@
       "id": 231,
       "text": "Arithmetics operators",
       "points": 50,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-26T07:59:45.631Z"
     }
   ],
@@ -1575,7 +1575,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 31810,
+  "totalPoints": 31860,
   "nextTid": 232,
   "nextRid": 11
 }
