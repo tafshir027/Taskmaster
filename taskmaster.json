@@ -1614,7 +1614,7 @@
       "id": 242,
       "text": "R playground",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-26T10:28:19.345Z"
     }
   ],
@@ -1660,7 +1660,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 33020,
+  "totalPoints": 33120,
   "nextTid": 243,
   "nextRid": 12
 }
