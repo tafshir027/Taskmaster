@@ -1518,6 +1518,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-25T15:42:16.454Z"
+    },
+    {
+      "id": 229,
+      "text": "job book collection",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-26T07:13:51.739Z"
     }
   ],
   "rewards": [
@@ -1555,6 +1562,6 @@
     }
   ],
   "totalPoints": 31610,
-  "nextTid": 229,
+  "nextTid": 230,
   "nextRid": 11
 }
