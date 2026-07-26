@@ -1602,6 +1602,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-07-26T09:52:56.287Z"
+    },
+    {
+      "id": 241,
+      "text": "Complete R Setup Guide",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-07-26T10:21:51.225Z"
     }
   ],
   "rewards": [
@@ -1647,6 +1654,6 @@
     }
   ],
   "totalPoints": 32920,
-  "nextTid": 241,
+  "nextTid": 242,
   "nextRid": 12
 }
