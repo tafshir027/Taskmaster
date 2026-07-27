@@ -1621,7 +1621,7 @@
       "id": 243,
       "text": "facebook page",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-27T09:24:02.605Z"
     },
     {
@@ -1674,7 +1674,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 33220,
+  "totalPoints": 33320,
   "nextTid": 245,
   "nextRid": 12
 }
