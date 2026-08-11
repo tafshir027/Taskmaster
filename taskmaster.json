@@ -1642,7 +1642,7 @@
       "id": 246,
       "text": "Daily Routine",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-11T05:49:14.887Z"
     }
   ],
@@ -1688,7 +1688,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 33420,
+  "totalPoints": 33520,
   "nextTid": 247,
   "nextRid": 12
 }
