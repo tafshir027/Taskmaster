@@ -1672,6 +1672,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-13T14:03:50.762Z"
+    },
+    {
+      "id": 251,
+      "text": "VBA Macros Slider",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-13T14:39:30.598Z"
     }
   ],
   "rewards": [
@@ -1717,6 +1724,6 @@
     }
   ],
   "totalPoints": 33900,
-  "nextTid": 251,
+  "nextTid": 252,
   "nextRid": 12
 }
