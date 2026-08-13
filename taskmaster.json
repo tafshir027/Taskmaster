@@ -1712,7 +1712,7 @@
       "id": 256,
       "text": "upload 5",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-13T16:50:59.317Z"
     }
   ],
@@ -1758,7 +1758,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 34300,
+  "totalPoints": 34400,
   "nextTid": 257,
   "nextRid": 12
 }
