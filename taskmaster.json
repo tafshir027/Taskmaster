@@ -1698,7 +1698,7 @@
       "id": 254,
       "text": "Excel Course Outlines",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-13T15:26:20.307Z"
     }
   ],
@@ -1744,7 +1744,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 34100,
+  "totalPoints": 34200,
   "nextTid": 255,
   "nextRid": 12
 }
