@@ -1677,7 +1677,7 @@
       "id": 251,
       "text": "VBA Macros Slider",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-13T14:39:30.598Z"
     },
     {
@@ -1730,7 +1730,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 33900,
+  "totalPoints": 34000,
   "nextTid": 253,
   "nextRid": 12
 }
