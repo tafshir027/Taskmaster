@@ -1740,7 +1740,7 @@
       "id": 260,
       "text": "video 3",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-14T13:52:00.231Z"
     }
   ],
@@ -1786,7 +1786,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 34800,
+  "totalPoints": 34900,
   "nextTid": 261,
   "nextRid": 12
 }
