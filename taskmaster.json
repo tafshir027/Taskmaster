@@ -1721,6 +1721,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-13T19:03:57.834Z"
+    },
+    {
+      "id": 258,
+      "text": "video 1",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-14T13:07:12.308Z"
     }
   ],
   "rewards": [
@@ -1766,6 +1773,6 @@
     }
   ],
   "totalPoints": 34600,
-  "nextTid": 258,
+  "nextTid": 259,
   "nextRid": 12
 }
