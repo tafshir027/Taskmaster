@@ -1840,6 +1840,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-15T17:10:19.914Z"
+    },
+    {
+      "id": 275,
+      "text": "Github",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-15T17:18:14.089Z"
     }
   ],
   "rewards": [
@@ -1885,6 +1892,6 @@
     }
   ],
   "totalPoints": 36300,
-  "nextTid": 275,
+  "nextTid": 276,
   "nextRid": 12
 }
