@@ -1805,6 +1805,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-15T14:00:47.480Z"
+    },
+    {
+      "id": 270,
+      "text": "upload 5",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-15T14:40:20.266Z"
     }
   ],
   "rewards": [
@@ -1850,6 +1857,6 @@
     }
   ],
   "totalPoints": 35700,
-  "nextTid": 270,
+  "nextTid": 271,
   "nextRid": 12
 }
