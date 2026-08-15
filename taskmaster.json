@@ -1784,6 +1784,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-15T03:59:17.439Z"
+    },
+    {
+      "id": 267,
+      "text": "create R course",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-15T13:06:39.688Z"
     }
   ],
   "rewards": [
@@ -1829,6 +1836,6 @@
     }
   ],
   "totalPoints": 35400,
-  "nextTid": 267,
+  "nextTid": 268,
   "nextRid": 12
 }
