@@ -1789,7 +1789,7 @@
       "id": 267,
       "text": "create R course",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-15T13:06:39.688Z"
     }
   ],
@@ -1835,7 +1835,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 35400,
+  "totalPoints": 35500,
   "nextTid": 268,
   "nextRid": 12
 }
