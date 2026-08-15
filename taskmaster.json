@@ -1845,7 +1845,7 @@
       "id": 275,
       "text": "Github",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-15T17:18:14.089Z"
     }
   ],
@@ -1891,7 +1891,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 36300,
+  "totalPoints": 36400,
   "nextTid": 276,
   "nextRid": 12
 }
