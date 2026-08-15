@@ -1831,7 +1831,7 @@
       "id": 273,
       "text": "slide 5",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-15T17:03:23.978Z"
     }
   ],
@@ -1877,7 +1877,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 36100,
+  "totalPoints": 36200,
   "nextTid": 274,
   "nextRid": 12
 }
