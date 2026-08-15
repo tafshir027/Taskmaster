@@ -1754,7 +1754,7 @@
       "id": 262,
       "text": "excel",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-15T03:23:39.274Z"
     },
     {
@@ -1821,7 +1821,7 @@
       "icon": "fas fa-coffee"
     }
   ],
-  "totalPoints": 35200,
+  "totalPoints": 35300,
   "nextTid": 266,
   "nextRid": 12
 }
