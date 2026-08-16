@@ -1894,7 +1894,7 @@
       "id": 12,
       "title": "Tour",
       "description": "46400",
-      "pointsRequired": 100,
+      "pointsRequired": 46400,
       "claimed": false,
       "icon": "fas fa-umbrella-beach"
     }
