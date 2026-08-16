@@ -1889,9 +1889,17 @@
       "pointsRequired": 56000,
       "claimed": false,
       "icon": "fas fa-coffee"
+    },
+    {
+      "id": 12,
+      "title": "Tour",
+      "description": "46400",
+      "pointsRequired": 100,
+      "claimed": false,
+      "icon": "fas fa-umbrella-beach"
     }
   ],
   "totalPoints": 36400,
   "nextTid": 276,
-  "nextRid": 12
+  "nextRid": 13
 }
