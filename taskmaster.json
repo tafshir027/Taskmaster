@@ -1847,6 +1847,20 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-15T17:18:14.089Z"
+    },
+    {
+      "id": 276,
+      "text": "video 1",
+      "points": 100,
+      "completed": true,
+      "createdAt": "2026-08-16T13:23:41.944Z"
+    },
+    {
+      "id": 277,
+      "text": "video 2",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-16T13:52:30.139Z"
     }
   ],
   "rewards": [
@@ -1899,7 +1913,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 36400,
-  "nextTid": 276,
+  "totalPoints": 36500,
+  "nextTid": 278,
   "nextRid": 13
 }
