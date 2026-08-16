@@ -1915,7 +1915,7 @@
       "id": 285,
       "text": "R slide",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-16T16:01:10.868Z"
     }
   ],
@@ -1969,7 +1969,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 37200,
+  "totalPoints": 37300,
   "nextTid": 286,
   "nextRid": 13
 }
