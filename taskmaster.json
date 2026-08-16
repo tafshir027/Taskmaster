@@ -1901,7 +1901,7 @@
       "id": 283,
       "text": "video 5",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-16T15:20:15.380Z"
     }
   ],
@@ -1955,7 +1955,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 37100,
+  "totalPoints": 37200,
   "nextTid": 284,
   "nextRid": 13
 }
