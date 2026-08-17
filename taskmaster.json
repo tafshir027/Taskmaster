@@ -1945,6 +1945,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-17T08:20:27.516Z"
+    },
+    {
+      "id": 290,
+      "text": "facebook ads",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-17T08:29:48.970Z"
     }
   ],
   "rewards": [
@@ -1998,6 +2005,6 @@
     }
   ],
   "totalPoints": 37800,
-  "nextTid": 290,
+  "nextTid": 291,
   "nextRid": 13
 }
