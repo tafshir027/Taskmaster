@@ -1959,6 +1959,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-17T08:41:59.831Z"
+    },
+    {
+      "id": 292,
+      "text": "excel course",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-17T09:17:47.519Z"
     }
   ],
   "rewards": [
@@ -2012,6 +2019,6 @@
     }
   ],
   "totalPoints": 38000,
-  "nextTid": 292,
+  "nextTid": 293,
   "nextRid": 13
 }
