@@ -1952,6 +1952,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-17T08:29:48.970Z"
+    },
+    {
+      "id": 291,
+      "text": "excel course outlines",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-17T08:41:59.831Z"
     }
   ],
   "rewards": [
@@ -2005,6 +2012,6 @@
     }
   ],
   "totalPoints": 37900,
-  "nextTid": 291,
+  "nextTid": 292,
   "nextRid": 13
 }
