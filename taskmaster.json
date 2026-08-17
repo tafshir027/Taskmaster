@@ -1929,7 +1929,7 @@
       "id": 287,
       "text": "upload",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-16T16:17:50.406Z"
     }
   ],
@@ -1983,7 +1983,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 37500,
+  "totalPoints": 37600,
   "nextTid": 288,
   "nextRid": 13
 }
