@@ -1964,7 +1964,7 @@
       "id": 292,
       "text": "excel course",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-17T09:17:47.519Z"
     }
   ],
@@ -2018,7 +2018,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 38000,
+  "totalPoints": 38100,
   "nextTid": 293,
   "nextRid": 13
 }
