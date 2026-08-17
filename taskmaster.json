@@ -1971,7 +1971,7 @@
       "id": 293,
       "text": "excel add in wp",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-17T09:18:17.512Z"
     }
   ],
@@ -2025,7 +2025,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 38100,
+  "totalPoints": 38200,
   "nextTid": 294,
   "nextRid": 13
 }
