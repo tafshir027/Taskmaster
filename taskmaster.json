@@ -1931,6 +1931,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-16T16:17:50.406Z"
+    },
+    {
+      "id": 288,
+      "text": "excel ads",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-17T08:06:06.460Z"
     }
   ],
   "rewards": [
@@ -1984,6 +1991,6 @@
     }
   ],
   "totalPoints": 37600,
-  "nextTid": 288,
+  "nextTid": 289,
   "nextRid": 13
 }
