@@ -1943,7 +1943,7 @@
       "id": 289,
       "text": "ads text",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-08-17T08:20:27.516Z"
     }
   ],
@@ -1997,7 +1997,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 37700,
+  "totalPoints": 37800,
   "nextTid": 290,
   "nextRid": 13
 }
