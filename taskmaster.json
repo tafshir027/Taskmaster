@@ -1966,6 +1966,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-17T09:17:47.519Z"
+    },
+    {
+      "id": 293,
+      "text": "excel add in wp",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-17T09:18:17.512Z"
     }
   ],
   "rewards": [
@@ -2019,6 +2026,6 @@
     }
   ],
   "totalPoints": 38100,
-  "nextTid": 293,
+  "nextTid": 294,
   "nextRid": 13
 }
