@@ -1973,6 +1973,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-17T09:18:17.512Z"
+    },
+    {
+      "id": 294,
+      "text": "wp group",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-08-17T09:20:31.064Z"
     }
   ],
   "rewards": [
@@ -2026,6 +2033,6 @@
     }
   ],
   "totalPoints": 38200,
-  "nextTid": 294,
+  "nextTid": 295,
   "nextRid": 13
 }
