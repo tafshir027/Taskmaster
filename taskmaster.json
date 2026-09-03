@@ -1994,6 +1994,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-09-03T15:28:14.829Z"
+    },
+    {
+      "id": 297,
+      "text": "video 3",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-09-03T15:44:11.373Z"
     }
   ],
   "rewards": [
@@ -2047,6 +2054,6 @@
     }
   ],
   "totalPoints": 38600,
-  "nextTid": 297,
+  "nextTid": 298,
   "nextRid": 13
 }
