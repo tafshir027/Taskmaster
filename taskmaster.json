@@ -1635,7 +1635,7 @@
       "id": 245,
       "text": "facebook cover",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-07-27T13:15:20.787Z"
     },
     {
@@ -2032,7 +2032,7 @@
       "icon": "fas fa-umbrella-beach"
     }
   ],
-  "totalPoints": 38300,
+  "totalPoints": 38400,
   "nextTid": 295,
   "nextRid": 13
 }
