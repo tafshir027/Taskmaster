@@ -1980,6 +1980,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-08-17T09:20:31.064Z"
+    },
+    {
+      "id": 295,
+      "text": "video 1",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-09-03T14:46:57.289Z"
     }
   ],
   "rewards": [
@@ -2033,6 +2040,6 @@
     }
   ],
   "totalPoints": 38400,
-  "nextTid": 295,
+  "nextTid": 296,
   "nextRid": 13
 }
