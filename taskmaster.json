@@ -2051,9 +2051,17 @@
       "pointsRequired": 46400,
       "claimed": false,
       "icon": "fas fa-umbrella-beach"
+    },
+    {
+      "id": 13,
+      "title": "Marayantang",
+      "description": "No description",
+      "pointsRequired": 56400,
+      "claimed": false,
+      "icon": "fas fa-bicycle"
     }
   ],
   "totalPoints": 38600,
   "nextTid": 298,
-  "nextRid": 13
+  "nextRid": 14
 }
