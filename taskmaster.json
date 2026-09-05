@@ -2001,6 +2001,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-09-03T15:44:11.373Z"
+    },
+    {
+      "id": 298,
+      "text": "20 min",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-09-05T16:42:38.955Z"
     }
   ],
   "rewards": [
@@ -2062,6 +2069,6 @@
     }
   ],
   "totalPoints": 38600,
-  "nextTid": 298,
+  "nextTid": 299,
   "nextRid": 14
 }
