@@ -2006,7 +2006,7 @@
       "id": 298,
       "text": "20 min",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-05T16:42:38.955Z"
     }
   ],
@@ -2068,7 +2068,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 38600,
+  "totalPoints": 38700,
   "nextTid": 299,
   "nextRid": 14
 }
