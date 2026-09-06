@@ -2041,7 +2041,7 @@
       "id": 303,
       "text": "order of operation slider",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-06T16:38:25.353Z"
     }
   ],
@@ -2103,7 +2103,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 39000,
+  "totalPoints": 39100,
   "nextTid": 304,
   "nextRid": 14
 }
