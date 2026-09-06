@@ -2027,7 +2027,7 @@
       "id": 301,
       "text": "Naming variable slide",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-06T15:45:46.879Z"
     }
   ],
@@ -2089,7 +2089,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 38800,
+  "totalPoints": 38900,
   "nextTid": 302,
   "nextRid": 14
 }
