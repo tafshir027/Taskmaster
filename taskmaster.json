@@ -2015,6 +2015,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-09-05T16:58:51.202Z"
+    },
+    {
+      "id": 300,
+      "text": "demo pdf previewer",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-09-06T06:04:20.392Z"
     }
   ],
   "rewards": [
@@ -2076,6 +2083,6 @@
     }
   ],
   "totalPoints": 38700,
-  "nextTid": 300,
+  "nextTid": 301,
   "nextRid": 14
 }
