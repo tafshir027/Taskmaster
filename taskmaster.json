@@ -2036,6 +2036,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-09-06T16:37:58.039Z"
+    },
+    {
+      "id": 303,
+      "text": "order of operation slider",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-09-06T16:38:25.353Z"
     }
   ],
   "rewards": [
@@ -2097,6 +2104,6 @@
     }
   ],
   "totalPoints": 39000,
-  "nextTid": 303,
+  "nextTid": 304,
   "nextRid": 14
 }
