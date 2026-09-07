@@ -2055,7 +2055,7 @@
       "id": 305,
       "text": "video 5",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-06T17:20:24.769Z"
     }
   ],
@@ -2117,7 +2117,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 39300,
+  "totalPoints": 39400,
   "nextTid": 306,
   "nextRid": 14
 }
