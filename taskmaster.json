@@ -2078,6 +2078,13 @@
       "points": 200,
       "completed": false,
       "createdAt": "2026-09-07T15:44:05.577Z"
+    },
+    {
+      "id": 309,
+      "text": "data types slider",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-09-07T15:48:13.012Z"
     }
   ],
   "rewards": [
@@ -2139,6 +2146,6 @@
     }
   ],
   "totalPoints": 39600,
-  "nextTid": 309,
+  "nextTid": 310,
   "nextRid": 14
 }
