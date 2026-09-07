@@ -2069,7 +2069,7 @@
       "id": 307,
       "text": "upload 2 videos",
       "points": 200,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-07T15:34:00.885Z"
     }
   ],
@@ -2131,7 +2131,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 39400,
+  "totalPoints": 39600,
   "nextTid": 308,
   "nextRid": 14
 }
