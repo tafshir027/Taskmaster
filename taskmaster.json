@@ -2076,7 +2076,7 @@
       "id": 308,
       "text": "upload 2",
       "points": 200,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-07T15:44:05.577Z"
     },
     {
@@ -2145,7 +2145,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 39800,
+  "totalPoints": 40000,
   "nextTid": 310,
   "nextRid": 14
 }
