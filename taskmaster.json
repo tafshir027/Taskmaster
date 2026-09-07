@@ -2083,7 +2083,7 @@
       "id": 309,
       "text": "data types slider",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-07T15:48:13.012Z"
     }
   ],
@@ -2145,7 +2145,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 39600,
+  "totalPoints": 39700,
   "nextTid": 310,
   "nextRid": 14
 }
