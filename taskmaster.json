@@ -2062,7 +2062,7 @@
       "id": 306,
       "text": "video 6",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-07T15:31:58.823Z"
     },
     {
@@ -2145,7 +2145,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 39700,
+  "totalPoints": 39800,
   "nextTid": 310,
   "nextRid": 14
 }
