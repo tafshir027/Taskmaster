@@ -2113,6 +2113,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-09-08T13:43:28.462Z"
+    },
+    {
+      "id": 314,
+      "text": "use 50 GB",
+      "points": 500,
+      "completed": false,
+      "createdAt": "2026-09-24T12:58:35.408Z"
     }
   ],
   "rewards": [
@@ -2174,6 +2181,6 @@
     }
   ],
   "totalPoints": 40500,
-  "nextTid": 314,
+  "nextTid": 315,
   "nextRid": 14
 }
