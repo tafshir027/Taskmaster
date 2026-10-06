@@ -2127,6 +2127,13 @@
       "points": 100,
       "completed": false,
       "createdAt": "2026-10-06T13:03:20.038Z"
+    },
+    {
+      "id": 316,
+      "text": "Video Recording 1",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-10-06T13:03:45.900Z"
     }
   ],
   "rewards": [
@@ -2188,6 +2195,6 @@
     }
   ],
   "totalPoints": 41000,
-  "nextTid": 316,
+  "nextTid": 317,
   "nextRid": 14
 }
