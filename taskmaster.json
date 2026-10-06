@@ -2111,7 +2111,7 @@
       "id": 313,
       "text": "slider upload",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-09-08T13:43:28.462Z"
     },
     {
@@ -2208,7 +2208,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 41200,
+  "totalPoints": 41300,
   "nextTid": 319,
   "nextRid": 14
 }
