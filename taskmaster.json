@@ -2162,6 +2162,13 @@
       "points": 100,
       "completed": true,
       "createdAt": "2026-10-06T15:12:02.652Z"
+    },
+    {
+      "id": 321,
+      "text": "Data Analysis slide",
+      "points": 100,
+      "completed": false,
+      "createdAt": "2026-10-06T15:46:12.115Z"
     }
   ],
   "rewards": [
@@ -2223,6 +2230,6 @@
     }
   ],
   "totalPoints": 41600,
-  "nextTid": 321,
+  "nextTid": 322,
   "nextRid": 14
 }
