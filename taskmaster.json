@@ -2139,7 +2139,7 @@
       "id": 317,
       "text": "research 1",
       "points": 100,
-      "completed": false,
+      "completed": true,
       "createdAt": "2026-10-06T13:43:26.757Z"
     },
     {
@@ -2215,7 +2215,7 @@
       "icon": "fas fa-bicycle"
     }
   ],
-  "totalPoints": 41400,
+  "totalPoints": 41500,
   "nextTid": 320,
   "nextRid": 14
 }
